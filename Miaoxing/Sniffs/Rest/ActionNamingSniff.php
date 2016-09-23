@@ -9,6 +9,8 @@ class Miaoxing_Sniffs_Rest_ActionNamingSniff implements PHP_CodeSniffer_Sniff
         'addAction' => 'newAction',
         'listsAction' => 'indexAction',
         'defaultsAction' => 'defaultAction',
+        'detailAction' => 'showAction',
+        'infoAction' => 'showAction',
     ];
 
     /**

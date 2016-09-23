@@ -8,6 +8,10 @@ class ActionNamingSniff
     {
     }
 
+    public function listAction()
+    {
+    }
+
     public function addAction()
     {
     }
@@ -16,7 +20,23 @@ class ActionNamingSniff
     {
     }
 
+    public function detailAction()
+    {
+    }
+
+    public function infoAction()
+    {
+    }
+
+    public function userInfoAction()
+    {
+    }
+
     public function userListAction()
+    {
+    }
+
+    public function userListsAction()
     {
     }
 }
