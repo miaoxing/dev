@@ -39,4 +39,16 @@ class ActionNamingSniff
     public function userListsAction()
     {
     }
+
+    public function testAction()
+    {
+    }
+
+    public function tAction()
+    {
+    }
+
+    public function aAction()
+    {
+    }
 }
