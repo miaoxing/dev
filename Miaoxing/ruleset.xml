@@ -4,7 +4,8 @@
 
   <file>./</file>
 
-  <exclude-pattern type="relative">^/vendor/*</exclude-pattern>
+  <exclude-pattern>data/cache/*</exclude-pattern>
+  <exclude-pattern>vendor/*</exclude-pattern>
 
   <arg name="colors"/>
 
