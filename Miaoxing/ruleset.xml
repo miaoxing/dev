@@ -61,7 +61,9 @@
 
   <rule ref="PSR1"/>
 
-  <rule ref="PSR2"/>
+  <rule ref="PSR2">
+    <exclude name="PSR2.ControlStructures.SwitchDeclaration.TerminatingComment"/>
+  </rule>
 
   <rule ref="Squiz.Commenting.BlockComment">
     <exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
