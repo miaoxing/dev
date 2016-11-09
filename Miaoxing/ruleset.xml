@@ -69,7 +69,6 @@
 
   <rule ref="Squiz.NamingConventions.ValidVariableName"/>
 
-  <rule ref="Squiz.PHP.CommentedOutCode"/>
   <rule ref="Squiz.PHP.DisallowMultipleAssignments"/><!--tbd-->
   <rule ref="Squiz.PHP.Eval"/>
   <rule ref="Squiz.PHP.ForbiddenFunctions"/>
