@@ -76,4 +76,8 @@
   <rule ref="Squiz.PHP.NonExecutableCode"/>
 
   <rule ref="Squiz.Scope.MethodScope"/>
+
+  <rule ref="Internal.NoCodeFound">
+    <severity>0</severity>
+  </rule>
 </ruleset>
