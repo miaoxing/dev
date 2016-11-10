@@ -8,8 +8,8 @@
   <exclude-pattern>vendor/*</exclude-pattern>
 
   <arg name="colors"/>
-
   <arg value="sp"/>
+  <arg name="encoding" value="UTF-8" />
 
   <rule ref="Generic.Classes.DuplicateClassName"/>
 
