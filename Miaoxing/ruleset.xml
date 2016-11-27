@@ -4,8 +4,8 @@
 
   <file>./</file>
 
-  <exclude-pattern>data/cache/*</exclude-pattern>
-  <exclude-pattern>vendor/*</exclude-pattern>
+  <exclude-pattern type="relative">data/cache/*</exclude-pattern>
+  <exclude-pattern type="relative">vendor/*</exclude-pattern>
 
   <arg name="colors"/>
   <arg value="sp"/>
@@ -71,7 +71,6 @@
 
   <rule ref="Squiz.NamingConventions.ValidVariableName"/>
 
-  <rule ref="Squiz.PHP.DisallowMultipleAssignments"/><!--tbd-->
   <rule ref="Squiz.PHP.Eval"/>
   <rule ref="Squiz.PHP.ForbiddenFunctions"/>
   <rule ref="Squiz.PHP.NonExecutableCode"/>
