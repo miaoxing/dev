@@ -156,6 +156,6 @@ b. 手机有11位数字,等于6个文本宽度,使用t-6
 
 解决: 使用特定的标识屏蔽问题
 
-PHPCS https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders
-PHPMD https://phpmd.org/documentation/suppress-warnings.html
-CSSLint https://github.com/CSSLint/csslint/wiki/Ignoring-parts-of-CSS-during-linting
+1. PHPCS https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders
+2. PHPMD https://phpmd.org/documentation/suppress-warnings.html
+3. CSSLint https://github.com/CSSLint/csslint/wiki/Ignoring-parts-of-CSS-during-linting
