@@ -10,6 +10,8 @@
   <arg name="colors"/>
   <arg value="sp"/>
   <arg name="encoding" value="UTF-8" />
+  <arg name="extensions" value="php" />
+  <arg name="ignore" value="src/Lib" />
 
   <rule ref="Generic.Classes.DuplicateClassName"/>
 
