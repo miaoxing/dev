@@ -56,6 +56,9 @@
   <rule ref="MySource.Objects.AssignThis"/>
 
   <rule ref="MySource.PHP.GetRequestData"/>
+  <rule ref="MySource.PHP.GetRequestData.SuperglobalAccessed">
+    <message>The %s super global must not be accessed directly; use $req->getXxx instead</message>
+  </rule>
 
   <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
 
