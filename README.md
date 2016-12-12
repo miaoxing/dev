@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 0.9.4 (16-12-10)
+
+- 自定义MySource.PHP.GetRequestData.SuperglobalAccessed的提示
+
 ### 0.9.3 (16-12-01)
 
 - 只检查PHP文件
