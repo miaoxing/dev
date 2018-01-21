@@ -26,6 +26,11 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 0.9.5 (18-01-21)
+
+- 升级到 PHP_CodeSniffer V3
+- 忽略自动生成的 docs/AutoComplete.php 文件
+
 ### 0.9.4 (16-12-10)
 
 - 自定义MySource.PHP.GetRequestData.SuperglobalAccessed的提示

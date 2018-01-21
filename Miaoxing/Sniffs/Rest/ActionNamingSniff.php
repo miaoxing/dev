@@ -1,6 +1,11 @@
 <?php
 
-class Miaoxing_Sniffs_Rest_ActionNamingSniff implements PHP_CodeSniffer_Sniff
+namespace Miaoxing\Sniffs\Rest;
+
+use PHP_CodeSniffer\Sniffs\Sniff;
+use PHP_CodeSniffer\Files\File;
+
+class ActionNamingSniff implements Sniff
 {
     /**
      * @var array
@@ -24,7 +29,7 @@ class Miaoxing_Sniffs_Rest_ActionNamingSniff implements PHP_CodeSniffer_Sniff
     /**
      * @inheritdoc
      */
-    public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
+    public function process(File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
         $functionName = $phpcsFile->findNext(T_STRING, $stackPtr);
