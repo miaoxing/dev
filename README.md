@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 0.9.6 (18-02-01)
+
+- 增加 phpmd 和 mi-schi/phpmd-extension 依赖
+
 ### 0.9.5 (18-01-21)
 
 - 升级到 PHP_CodeSniffer V3
