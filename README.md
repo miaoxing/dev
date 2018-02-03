@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### dev
+
+- 忽略 node_modules 目录
+
 ### 1.0.0 (18-02-03)
 
 - 增加 eslint，stylelint，htmllint-cli 依等赖
