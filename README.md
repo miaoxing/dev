@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 1.0.0 (18-02-03)
+
+- 增加 eslint，stylelint，htmllint-cli 依等赖
+
 ### 0.9.6 (18-02-01)
 
 - 增加 phpmd 和 mi-schi/phpmd-extension 依赖
