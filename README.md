@@ -29,6 +29,7 @@ Miaoxing Coding Standards
 ### dev
 
 - 忽略 node_modules 目录
+- 使用 miaoxing-htmllint-cli 替换 htmllint-cli 以支持 htmllint 0.7.0
 
 ### 1.0.0 (18-02-03)
 
