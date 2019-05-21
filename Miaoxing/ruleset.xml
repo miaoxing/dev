@@ -47,6 +47,7 @@
     </properties>
   </rule>
 
+  <rule ref="Generic.PHP.ForbiddenFunctions"/>
   <rule ref="Generic.PHP.NoSilencedErrors"/>
 
   <rule ref="Generic.Strings.UnnecessaryStringConcat"/>
@@ -79,7 +80,6 @@
   <rule ref="Squiz.NamingConventions.ValidVariableName"/>
 
   <rule ref="Squiz.PHP.Eval"/>
-  <rule ref="Squiz.PHP.ForbiddenFunctions"/>
   <rule ref="Squiz.PHP.NonExecutableCode"/>
 
   <rule ref="Squiz.Scope.MethodScope"/>
