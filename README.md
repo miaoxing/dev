@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 3.0.0 (19-05-21)
+
+- 更新支持 squizlabs/php_codesniffer:^3.3
+
 ### 2.0.0 (18-02-04)
 
 - 忽略 node_modules 目录
