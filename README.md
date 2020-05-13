@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 4.0.0
+
+- 忽略 Squiz.Commenting.BlockComment.SingleLine 规则
+
 ### 3.0.0 (19-05-21)
 
 - 更新支持 squizlabs/php_codesniffer:^3.3

@@ -11,9 +11,9 @@
 
   <arg name="colors"/>
   <arg value="sp"/>
-  <arg name="encoding" value="UTF-8" />
-  <arg name="extensions" value="php" />
-  <arg name="ignore" value="src/Lib" />
+  <arg name="encoding" value="UTF-8"/>
+  <arg name="extensions" value="php"/>
+  <arg name="ignore" value="src/Lib"/>
 
   <rule ref="Generic.Classes.DuplicateClassName"/>
 
@@ -75,6 +75,8 @@
 
   <rule ref="Squiz.Commenting.BlockComment">
     <exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
+    <!-- Allow /* @see Xxx */ for code hint -->
+    <exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
   </rule>
 
   <rule ref="Squiz.NamingConventions.ValidVariableName"/>
