@@ -6,6 +6,7 @@
   "license": "MIT",
   "require": {
     "squizlabs/php_codesniffer": "^3.3",
-    "mi-schi/phpmd-extension": "^4.3"
+    "mi-schi/phpmd-extension": "^4.3",
+    "friendsofphp/php-cs-fixer": "^2.16"
   }
 }
