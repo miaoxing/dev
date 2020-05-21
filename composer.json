@@ -6,7 +6,8 @@
   "license": "MIT",
   "bin": [
     "bin/miaoxing-php-cs-fixer",
-    "bin/miaoxing-phpcs"
+    "bin/miaoxing-phpcs",
+    "bin/miaoxing-phpmd"
   ],
   "require": {
     "squizlabs/php_codesniffer": "^3.3",
