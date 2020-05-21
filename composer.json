@@ -4,6 +4,9 @@
     "miaoxing"
   ],
   "license": "MIT",
+  "bin": [
+    "bin/miaoxing-phpcs.sh"
+  ],
   "require": {
     "squizlabs/php_codesniffer": "^3.3",
     "mi-schi/phpmd-extension": "^4.3",
