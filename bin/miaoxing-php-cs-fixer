@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+if [[ -e ".php_cs" ]]; then
+  CONFIG=".php_cs";
+else
+  CONFIG="vendor/miaoxing/coding-standards/.php_cs";
+fi
+
+vendor/bin/php-cs-fixer fix --config=${CONFIG} -v --allow-risky yes --dry-run --using-cache=no

@@ -5,6 +5,7 @@
   ],
   "license": "MIT",
   "bin": [
+    "bin/miaoxing-php-cs-fixer",
     "bin/miaoxing-phpcs"
   ],
   "require": {
