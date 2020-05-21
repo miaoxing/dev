@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+if [[ -e "phpmd.xml" ]]; then
+  CONFIG="phpmd.xml";
+else
+  CONFIG="vendor/miaoxing/coding-standards/phpmd.xml";
+fi
+
+vendor/bin/phpmd . text ${CONFIG} --exclude vendor,plugins,docs,src/Lib,public/comps,public/libs
