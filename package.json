@@ -14,6 +14,9 @@
     "miaoxing-eslint": "bin/miaoxing-eslint",
     "miaoxing-stylelint": "bin/miaoxing-stylelint"
   },
+  "scripts": {
+    "publish": "npm publish --registry=https://registry.npmjs.org"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",
