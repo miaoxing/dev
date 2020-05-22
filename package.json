@@ -1,11 +1,15 @@
 {
   "name": "miaoxing-coding-standards",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
   "repository": "https://github.com/miaoxing/coding-standards.git",
   "author": "twinh <twinhuang@qq.com>",
   "license": "MIT",
+  "files": [
+    "bin/miaoxing-eslint",
+    "bin/miaoxing-stylelint"
+  ],
   "bin": {
     "miaoxing-eslint": "bin/miaoxing-eslint",
     "miaoxing-stylelint": "bin/miaoxing-stylelint"
