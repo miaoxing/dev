@@ -6,6 +6,9 @@
   "repository": "https://github.com/miaoxing/coding-standards.git",
   "author": "twinh <twinhuang@qq.com>",
   "license": "MIT",
+  "bin": {
+    "miaoxing-eslint": "bin/miaoxing-eslint"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",

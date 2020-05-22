@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+
+# 如果没有忽略文件，拷贝默认配置
+copied_ignore_file=false
+if [[ ! -e ".eslintignore" ]]; then
+  cp "node_modules/miaoxing-coding-standards/.eslintignore" ".eslintignore";
+  copied_ignore_file=true
+fi
+
+if [[ -e ".eslintrc.json" ]]; then
+  config=".eslintrc.json";
+else
+  config="node_modules/miaoxing-coding-standards/.eslintrc.json";
+fi
+
+exit_code=0
+yarn eslint --config=${config} . || exit_code=$?
+
+# 还原拷贝的文件
+if [[ copied_ignore_file ]]; then
+  rm ".eslintignore"
+fi
+
+exit ${exit_code}
