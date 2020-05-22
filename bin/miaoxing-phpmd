@@ -8,4 +8,4 @@ else
   CONFIG="vendor/miaoxing/coding-standards/phpmd.xml";
 fi
 
-vendor/bin/phpmd . text ${CONFIG} --exclude vendor,plugins,docs,src/Lib,public/comps,public/libs
+vendor/bin/phpmd src,tests,resources text ${CONFIG}
