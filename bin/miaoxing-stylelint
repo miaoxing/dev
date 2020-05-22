@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+if [[ -e ".stylelintrc.json" ]]; then
+ config=".stylelintrc.json";
+else
+ config="node_modules/miaoxing-coding-standards/.stylelintrc.json";
+fi
+
+./node_modules/.bin/stylelint --config ${config} "{src,resources}/**/*.{css,scss,sass}"
