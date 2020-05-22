@@ -26,6 +26,10 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
+### 4.0.1 (20-05-22)
+
+- npm 包增加 eslint, stylelint 的配置文件
+
 ### 4.0.0 (20-05-22)
 
 - 忽略 Squiz.Commenting.BlockComment.SingleLine 规则

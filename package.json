@@ -1,6 +1,6 @@
 {
   "name": "miaoxing-coding-standards",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
   "repository": "https://github.com/miaoxing/coding-standards.git",
@@ -8,7 +8,10 @@
   "license": "MIT",
   "files": [
     "bin/miaoxing-eslint",
-    "bin/miaoxing-stylelint"
+    "bin/miaoxing-stylelint",
+    ".eslintignore",
+    ".eslintrc.json",
+    ".stylelintrc.json"
   ],
   "bin": {
     "miaoxing-eslint": "bin/miaoxing-eslint",
