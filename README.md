@@ -26,9 +26,12 @@ Miaoxing Coding Standards
 
 ## 更新日志
 
-### 4.0.0
+### 4.0.0 (20-05-22)
 
 - 忽略 Squiz.Commenting.BlockComment.SingleLine 规则
+- 更新支持 mi-schi/phpmd-extension: ^4.3
+- 增加 miaoxing-phpmd, miaoxing-phpcs, miaoxing-php-cs-fixer, miaoxing-phpunit, miaoxing-eslint, miaoxing-stylelint 命令
+- 移除已不再更新的 htmllint
 
 ### 3.0.0 (19-05-21)
 
