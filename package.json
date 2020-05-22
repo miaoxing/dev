@@ -7,7 +7,8 @@
   "author": "twinh <twinhuang@qq.com>",
   "license": "MIT",
   "bin": {
-    "miaoxing-eslint": "bin/miaoxing-eslint"
+    "miaoxing-eslint": "bin/miaoxing-eslint",
+    "miaoxing-stylelint": "bin/miaoxing-stylelint"
   },
   "dependencies": {
     "babel-eslint": "^8.2.1",
