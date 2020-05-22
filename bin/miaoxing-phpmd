@@ -3,9 +3,9 @@
 set -e
 
 if [[ -e "phpmd.xml" ]]; then
-  CONFIG="phpmd.xml";
+  config="phpmd.xml";
 else
-  CONFIG="vendor/miaoxing/coding-standards/phpmd.xml";
+  config="vendor/miaoxing/coding-standards/phpmd.xml";
 fi
 
-vendor/bin/phpmd src,tests,resources text ${CONFIG}
+vendor/bin/phpmd src,tests,resources text ${config}
