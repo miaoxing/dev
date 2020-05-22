@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+vendor/bin/phpunit --verbose --stderr --coverage-clover build/logs/clover.xml --coverage-text
