@@ -1,6 +1,6 @@
 {
   "name": "miaoxing-coding-standards",
-  "version": "4.0.1",
+  "version": "0.0.0-development",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
   "repository": "https://github.com/miaoxing/coding-standards.git",
@@ -18,7 +18,7 @@
     "miaoxing-stylelint": "bin/miaoxing-stylelint"
   },
   "scripts": {
-    "release": "npm publish --registry=https://registry.npmjs.org"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "babel-eslint": "^8.2.1",
@@ -28,5 +28,13 @@
     "stylelint": "^8.4.0",
     "stylelint-config-recommended": "^2.0.1",
     "stylelint-scss": "^2.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "husky": "^4.2.5",
+    "semantic-release": "^17.0.8"
   }
 }
