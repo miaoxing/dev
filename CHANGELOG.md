@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/miaoxing/coding-standards/compare/v4.0.1...v4.1.0) (2020-06-09)
+
+
+### Features
+
+* 增加更多检查目录 ([42f83d0](https://github.com/miaoxing/coding-standards/commit/42f83d029c83add19ecb456cbb3021c9913897bd))
+
 ## 4.0.1 (2020-05-22)
 
 * npm 包增加 eslint, stylelint 的配置文件
