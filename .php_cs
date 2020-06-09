@@ -20,11 +20,7 @@ foreach ($phpDirs as $dir) {
 return PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()
-            ->in([
-                $cwd . '/src',
-                $cwd . '/resources',
-                $cwd . '/tests',
-            ])
+            ->in($dirs)
     )
     ->setRules([
         '@PSR2' => true,
