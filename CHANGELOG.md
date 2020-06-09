@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/miaoxing/coding-standards/compare/v4.1.0...v4.1.1) (2020-06-09)
+
+
+### Bug Fixes
+
+* 配置未更新 ([2d75abf](https://github.com/miaoxing/coding-standards/commit/2d75abfb84557aa1100c30fcd1b37ab1cc2f3748))
+
 # [4.1.0](https://github.com/miaoxing/coding-standards/compare/v4.0.1...v4.1.0) (2020-06-09)
 
 
