@@ -2,6 +2,21 @@
 
 $cwd = getcwd();
 
+$phpDirs = [
+    'config',
+    'src',
+    'stubs',
+    'tests',
+    'views',
+    'resources' // deprecated，will remove in v4
+];
+$dirs = [];
+foreach ($phpDirs as $dir) {
+    if (is_dir($cwd . '/' . $dir)) {
+        $dirs[] = $cwd . '/' . $dir;
+    }
+}
+
 return PhpCsFixer\Config::create()
     ->setFinder(
         PhpCsFixer\Finder::create()

@@ -8,4 +8,16 @@ else
   config="vendor/miaoxing/coding-standards/phpmd.xml";
 fi
 
-vendor/bin/phpmd src,tests,resources text ${config}
+exist_dirs=()
+# resources dir is deprecated，will remove in v4
+dirs=('config' 'src' 'stubs' 'tests' 'views' 'resources');
+for dir in ${dirs[@]} ; do
+  if [[ -d ${dir} ]]; then
+    exist_dirs+=(${dir});
+  fi
+done
+dir_arg=$(IFS=, ; echo "${exist_dirs[*]}")
+
+echo "Check in ${dir_arg}";
+
+vendor/bin/phpmd ${dir_arg} ansi ${config}
