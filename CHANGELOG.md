@@ -1,3 +1,15 @@
+# [5.0.0-beta.2](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2020-06-10)
+
+
+### Code Refactoring
+
+* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/coding-standards/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
+
+
+### BREAKING CHANGES
+
+* 更新 stylelint 和配置
+
 # [5.0.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.3.0-beta.1...v5.0.0-beta.1) (2020-06-10)
 
 
