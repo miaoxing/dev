@@ -28,10 +28,5 @@
       "version": "detect"
     }
   },
-  "rules": {
-    // 暂不启用，如用到了外部类库的参数
-    "react/prop-types": [
-      0
-    ]
-  }
+  "rules": {}
 }
