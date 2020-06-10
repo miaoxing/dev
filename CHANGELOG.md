@@ -1,3 +1,10 @@
+# [5.0.0-beta.3](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2020-06-10)
+
+
+### Features
+
+* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/coding-standards/commit/74669ade6237e0b879a0ac0c842876369e35c040))
+
 # [5.0.0-beta.2](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2020-06-10)
 
 
