@@ -8,4 +8,10 @@ else
  config="node_modules/miaoxing-coding-standards/.stylelintrc.json";
 fi
 
-./node_modules/.bin/stylelint --config ${config} "{src,resources}/**/*.{css,scss,sass}"
+if [[ $1 = 'fix' ]]; then
+    fix="--fix"
+else
+    fix=""
+fi
+
+./node_modules/.bin/stylelint --config ${config} "{src,resources}/**/*.{css,scss,sass}" ${fix}
