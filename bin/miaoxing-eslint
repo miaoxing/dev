@@ -15,8 +15,14 @@ else
   config="node_modules/miaoxing-coding-standards/.eslintrc.json";
 fi
 
+if [[ $1 = 'fix' ]]; then
+    fix="--fix"
+else
+    fix=""
+fi
+
 exit_code=0
-yarn eslint --config=${config} . || exit_code=$?
+yarn eslint --config=${config} . ${fix} || exit_code=$?
 
 # 还原拷贝的文件
 if [[ copied_ignore_file ]]; then

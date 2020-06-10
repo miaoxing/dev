@@ -1,3 +1,18 @@
+# [4.2.0](https://github.com/miaoxing/coding-standards/compare/v4.1.1...v4.2.0) (2020-06-10)
+
+
+### Features
+
+* 允许命令结尾传入 fix 来执行 eslint, stylelint 修复操作 ([8e2d4c1](https://github.com/miaoxing/coding-standards/commit/8e2d4c1d004f3bdcf13608d49ab228946d41d186))
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([d2518da](https://github.com/miaoxing/coding-standards/commit/d2518da6fed717727f970838c59a64ce7c216d98))
+
+## [4.1.1](https://github.com/miaoxing/coding-standards/compare/v4.1.0...v4.1.1) (2020-06-09)
+
+
+### Bug Fixes
+
+* 配置未更新 ([2d75abf](https://github.com/miaoxing/coding-standards/commit/2d75abfb84557aa1100c30fcd1b37ab1cc2f3748))
+
 # [4.1.0](https://github.com/miaoxing/coding-standards/compare/v4.0.1...v4.1.0) (2020-06-09)
 
 
