@@ -1,3 +1,10 @@
+# [4.3.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v4.3.0-beta.1) (2020-06-10)
+
+
+### Features
+
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/coding-standards/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
+
 # [4.2.0](https://github.com/miaoxing/coding-standards/compare/v4.1.1...v4.2.0) (2020-06-10)
 
 
