@@ -11,4 +11,11 @@ else
   standard="vendor/miaoxing/coding-standards/phpcs.xml.dist";
 fi
 
-vendor/bin/phpcs --standard=${standard} .
+# Run `miaoxing-phpcs fix` to execute phpcbf
+if [[ $1 = 'fix' ]]; then
+    cmd="phpcbf"
+else
+    cmd="phpcs"
+fi
+
+vendor/bin/${cmd} --standard=${standard} .
