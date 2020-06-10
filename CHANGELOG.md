@@ -1,3 +1,13 @@
+# [5.0.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.3.0-beta.1...v5.0.0-beta.1) (2020-06-10)
+
+
+* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/coding-standards/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
+
+
+### BREAKING CHANGES
+
+* 简化 eslint 配置
+
 # [4.3.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v4.3.0-beta.1) (2020-06-10)
 
 
