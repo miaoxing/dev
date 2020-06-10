@@ -14,4 +14,4 @@ else
     fix=""
 fi
 
-./node_modules/.bin/stylelint --config ${config} "{src,resources}/**/*.{css,scss,sass}" ${fix}
+./node_modules/.bin/stylelint --allow-empty-input --config ${config} "**/*.{css,scss,sass}" ${fix}
