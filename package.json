@@ -11,6 +11,7 @@
     "bin/miaoxing-stylelint",
     ".eslintignore",
     ".eslintrc.json",
+    ".stylelintignore",
     ".stylelintrc.json"
   ],
   "bin": {

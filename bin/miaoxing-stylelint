@@ -2,6 +2,13 @@
 
 set -e
 
+# 如果没有忽略文件，拷贝默认配置
+copied_ignore_file=false
+if [[ ! -e ".stylelintignore" ]]; then
+  cp "node_modules/miaoxing-coding-standards/.stylelintignore" ".stylelintignore";
+  copied_ignore_file=true
+fi
+
 if [[ -e ".stylelintrc.json" ]]; then
  config=".stylelintrc.json";
 else
@@ -14,4 +21,12 @@ else
     fix=""
 fi
 
-./node_modules/.bin/stylelint --allow-empty-input --config ${config} "**/*.{css,scss,sass}" ${fix}
+exit_code=0
+yarn stylelint --allow-empty-input --config ${config} "**/*.{css,scss,sass}" ${fix} || exit_code=$?
+
+# 还原拷贝的文件
+if [[ copied_ignore_file ]]; then
+  rm ".stylelintignore"
+fi
+
+exit ${exit_code}
