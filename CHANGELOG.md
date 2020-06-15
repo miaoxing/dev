@@ -1,3 +1,16 @@
+# [5.0.0-beta.4](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2020-06-15)
+
+
+### Bug Fixes
+
+* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/coding-standards/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
+* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/coding-standards/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
+
+
+### Features
+
+* 初始化 jest ([460c4ee](https://github.com/miaoxing/coding-standards/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
+
 # [5.0.0-beta.3](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2020-06-10)
 
 
