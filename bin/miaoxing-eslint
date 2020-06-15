@@ -22,7 +22,7 @@ else
 fi
 
 exit_code=0
-yarn eslint --config=${config} . ${fix} || exit_code=$?
+yarn eslint --no-error-on-unmatched-pattern --config=${config} . ${fix} || exit_code=$?
 
 # 还原拷贝的文件
 if [[ copied_ignore_file ]]; then
