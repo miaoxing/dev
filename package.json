@@ -17,6 +17,7 @@
   ],
   "bin": {
     "miaoxing-eslint": "bin/miaoxing-eslint",
+    "miaoxing-jest": "bin/miaoxing-jest",
     "miaoxing-stylelint": "bin/miaoxing-stylelint"
   },
   "scripts": {
