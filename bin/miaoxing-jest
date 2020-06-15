@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+yarn jest --passWithNoTests --coverage --coverageReporters text lcovonly
