@@ -15,4 +15,4 @@ else
     dry_run="--dry-run"
 fi
 
-vendor/bin/php-cs-fixer fix --config=${config} -v --allow-risky yes --dry-run --using-cache=no
+vendor/bin/php-cs-fixer fix --config=${config} -v --allow-risky yes ${dry_run} --using-cache=no
