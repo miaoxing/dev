@@ -1,3 +1,10 @@
+# [5.0.0-beta.5](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2020-06-15)
+
+
+### Bug Fixes
+
+* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/coding-standards/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
+
 # [5.0.0-beta.4](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2020-06-15)
 
 
