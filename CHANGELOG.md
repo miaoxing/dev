@@ -1,3 +1,10 @@
+# [5.0.0-beta.7](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2020-06-16)
+
+
+### Bug Fixes
+
+* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/coding-standards/commit/751812f87d55069e06e7338a694c1bb13073acf0))
+
 # [5.0.0-beta.6](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2020-06-16)
 
 
