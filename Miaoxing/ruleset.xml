@@ -50,6 +50,12 @@
   <rule ref="Generic.PHP.ForbiddenFunctions"/>
   <rule ref="Generic.PHP.NoSilencedErrors"/>
 
+  <!-- Conflict with js template: <% %> <%= %> -->
+  <rule ref="Generic.PHP.DisallowAlternativePHPTags">
+    <exclude name="Generic.PHP.DisallowAlternativePHPTags.MaybeASPOpenTagFound"/>
+    <exclude name="Generic.PHP.DisallowAlternativePHPTags.MaybeASPShortOpenTagFound"/>
+  </rule>
+
   <rule ref="Generic.Strings.UnnecessaryStringConcat"/>
 
   <rule ref="Generic.WhiteSpace.ScopeIndent">
