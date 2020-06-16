@@ -1,3 +1,10 @@
+# [5.0.0-beta.6](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2020-06-16)
+
+
+### Bug Fixes
+
+* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/coding-standards/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
+
 # [5.0.0-beta.5](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2020-06-15)
 
 
