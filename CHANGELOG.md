@@ -1,3 +1,16 @@
+# [5.1.0](https://github.com/miaoxing/coding-standards/compare/v5.0.0...v5.1.0) (2020-06-21)
+
+
+### Bug Fixes
+
+* **phpstan:** 插件目录不在 vendor 中会提示 Could not read file ([de8dcab](https://github.com/miaoxing/coding-standards/commit/de8dcab0faf9fb7fb73a46c7c56e9f4746394ac7))
+* **phpstan:** 移除 level 参数，实际无效，会提示 No rules detected ([59036eb](https://github.com/miaoxing/coding-standards/commit/59036eb938adc37b7eba2128b9735cf85c9b7495))
+
+
+### Features
+
+* **phpstan:** 增加默认的配置文件 ([502c4e8](https://github.com/miaoxing/coding-standards/commit/502c4e82a1c3b1bcf8e997566d48898b9853ee66))
+
 # [5.0.0](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v5.0.0) (2020-06-21)
 
 
