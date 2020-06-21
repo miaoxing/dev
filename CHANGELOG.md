@@ -1,3 +1,10 @@
+# [5.0.0-beta.9](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2020-06-21)
+
+
+### Bug Fixes
+
+* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/coding-standards/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
+
 # [5.0.0-beta.8](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2020-06-21)
 
 
