@@ -1,3 +1,10 @@
+# [5.0.0-beta.8](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2020-06-21)
+
+
+### Features
+
+* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/coding-standards/commit/0734113323d23aa691631a649beb43b91774cb0d))
+
 # [5.0.0-beta.7](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2020-06-16)
 
 
