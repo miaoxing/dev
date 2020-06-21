@@ -1,3 +1,37 @@
+# [5.0.0](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v5.0.0) (2020-06-21)
+
+
+### Bug Fixes
+
+* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/coding-standards/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
+* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/coding-standards/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
+* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/coding-standards/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
+* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/coding-standards/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
+* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/coding-standards/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
+* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/coding-standards/commit/751812f87d55069e06e7338a694c1bb13073acf0))
+
+
+### Code Refactoring
+
+* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/coding-standards/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
+
+
+### Features
+
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/coding-standards/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
+* 初始化 jest ([460c4ee](https://github.com/miaoxing/coding-standards/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
+* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/coding-standards/commit/0734113323d23aa691631a649beb43b91774cb0d))
+* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/coding-standards/commit/74669ade6237e0b879a0ac0c842876369e35c040))
+
+
+* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/coding-standards/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
+
+
+### BREAKING CHANGES
+
+* 更新 stylelint 和配置
+* 简化 eslint 配置
+
 # [5.0.0-beta.9](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2020-06-21)
 
 
