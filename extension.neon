@@ -2,8 +2,6 @@ includes:
 	- %currentWorkingDirectory%/vendor/phpstan/phpstan/conf/bleedingEdge.neon
 
 parameters:
-    level: 5
-
     reportUnmatchedIgnoredErrors: false
 
     ignoreErrors:
