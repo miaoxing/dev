@@ -1,0 +1,27 @@
+includes:
+	- vendor/phpstan/phpstan/conf/bleedingEdge.neon
+
+parameters:
+    level: 5
+
+    reportUnmatchedIgnoredErrors: false
+
+    ignoreErrors:
+        # 用于快速判断赋值，例如 !$a && $a = 'xx';
+        - "#^Right side of (\\|\\||&&) is always (true|false)\\.$#"
+
+services:
+    -
+        class: Miaoxing\CodingStandards\PHPStan\ServiceMethodExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
+
+    -
+        class: Miaoxing\CodingStandards\PHPStan\WeiMethodExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
+
+    -
+        class: Miaoxing\CodingStandards\PHPStan\WeiPropertyExtension
+        tags:
+            - phpstan.broker.propertiesClassReflectionExtension
