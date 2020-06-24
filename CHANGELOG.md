@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/miaoxing/coding-standards/compare/v5.1.0...v5.1.1) (2020-06-24)
+
+
+### Bug Fixes
+
+* **phpstan:** 更新 phpstan/phpstan 到 ^0.12.30 ([126cf78](https://github.com/miaoxing/coding-standards/commit/126cf78dd41028fbb1f4481a4d7b9e048b6daaa1))
+
 # [5.1.0](https://github.com/miaoxing/coding-standards/compare/v5.0.0...v5.1.0) (2020-06-21)
 
 
