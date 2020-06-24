@@ -17,7 +17,7 @@
     "mi-schi/phpmd-extension": "^4.3",
     "friendsofphp/php-cs-fixer": "^2.16",
     "phpunit/phpunit": "^8 || ^9",
-    "phpstan/phpstan": "dev-master#84d77fec170663d7ef2f48fa73fda67e5cd747f8",
+    "phpstan/phpstan": "^0.12.30",
     "phpstan/phpstan-phpunit": "^0.12.11",
     "wei/wei": "dev-master",
     "phpstan/extension-installer": "^1.0"
