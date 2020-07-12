@@ -1,3 +1,10 @@
+## [5.1.2](https://github.com/miaoxing/coding-standards/compare/v5.1.1...v5.1.2) (2020-07-12)
+
+
+### Bug Fixes
+
+* **deps:** bump npm from 6.14.5 to 6.14.6 ([be080fb](https://github.com/miaoxing/coding-standards/commit/be080fb9b49ecbd82bd326a229a89520c5e19acd))
+
 ## [5.1.1](https://github.com/miaoxing/coding-standards/compare/v5.1.0...v5.1.1) (2020-06-24)
 
 
