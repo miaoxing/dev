@@ -1,3 +1,10 @@
+## [5.1.4](https://github.com/miaoxing/coding-standards/compare/v5.1.3...v5.1.4) (2020-07-24)
+
+
+### Bug Fixes
+
+* 允许 $os 变量 ([4c01a39](https://github.com/miaoxing/coding-standards/commit/4c01a390c0d8d8d64d71fc57d9533a96a79b0b3d))
+
 ## [5.1.3](https://github.com/miaoxing/coding-standards/compare/v5.1.2...v5.1.3) (2020-07-24)
 
 
