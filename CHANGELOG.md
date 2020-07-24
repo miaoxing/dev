@@ -1,3 +1,10 @@
+## [5.1.3](https://github.com/miaoxing/coding-standards/compare/v5.1.2...v5.1.3) (2020-07-24)
+
+
+### Bug Fixes
+
+* **dep:** 更新 wei/wei 到 0.9.24 ([f5b3b1a](https://github.com/miaoxing/coding-standards/commit/f5b3b1a7587e026fa48b0a5677cbf18fca3e894e))
+
 ## [5.1.2](https://github.com/miaoxing/coding-standards/compare/v5.1.1...v5.1.2) (2020-07-12)
 
 
