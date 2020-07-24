@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b72329781dfc12309804749a097bb33e",
+    "content-hash": "7df4820ac1925639956ed4a277ec64c0",
     "packages": [
         {
             "name": "composer/semver",
@@ -4181,16 +4181,16 @@
         },
         {
             "name": "wei/wei",
-            "version": "dev-master",
+            "version": "v0.9.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twinh/wei.git",
-                "reference": "0882c7fdb7b5c2649cce68c2fe477bd29c02b22f"
+                "reference": "8de8ec675fc2f9302c88ae776730493a48bf35e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twinh/wei/zipball/0882c7fdb7b5c2649cce68c2fe477bd29c02b22f",
-                "reference": "0882c7fdb7b5c2649cce68c2fe477bd29c02b22f",
+                "url": "https://api.github.com/repos/twinh/wei/zipball/8de8ec675fc2f9302c88ae776730493a48bf35e1",
+                "reference": "8de8ec675fc2f9302c88ae776730493a48bf35e1",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4231,15 +4231,13 @@
                 "framework",
                 "validator"
             ],
-            "time": "2020-06-21T06:13:10+00:00"
+            "time": "2020-07-23T03:51:29+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wei/wei": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
