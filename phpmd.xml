@@ -50,7 +50,11 @@
   <rule ref="rulesets/unusedcode.xml/UnusedPrivateMethod"/>
   <!--<rule ref="rulesets/unusedcode.xml/UnusedFormalParameter" />-->
 
-  <rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/ConstructorNewOperator"/>
+  <rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/ConstructorNewOperator">
+    <properties>
+      <property name="allowedClassNames" value="DateTime,ArrayCollection,ArrayObject,stdClass"/>
+    </properties>
+  </rule>
   <rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/PublicFieldDeclaration"/>
   <!--<rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/ReturnStatement" />-->
 
