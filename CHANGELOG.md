@@ -1,3 +1,12 @@
+## [5.1.5](https://github.com/miaoxing/coding-standards/compare/v5.1.4...v5.1.5) (2020-07-25)
+
+
+### Bug Fixes
+
+* **phpmd:** 允许更多短变量名和方法名 ([8bf4b18](https://github.com/miaoxing/coding-standards/commit/8bf4b181174da3e5249c458cbae432f350032775))
+* **phpmd:** 允许构造函数中实例化异常类 ([addc430](https://github.com/miaoxing/coding-standards/commit/addc430df16df0e84200343943c5ac89b9d8f4e3))
+* **phpmd:** 允许构造函数中实例化特定的类 ([d0620b0](https://github.com/miaoxing/coding-standards/commit/d0620b0cf4675e49225b87912088e136cbbcc929))
+
 ## [5.1.4](https://github.com/miaoxing/coding-standards/compare/v5.1.3...v5.1.4) (2020-07-24)
 
 
