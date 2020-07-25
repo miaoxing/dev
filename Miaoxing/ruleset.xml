@@ -85,7 +85,9 @@
     <exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
   </rule>
 
-  <rule ref="Squiz.NamingConventions.ValidVariableName"/>
+  <rule ref="Squiz.NamingConventions.ValidVariableName">
+    <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+  </rule>
 
   <rule ref="Squiz.PHP.Eval"/>
   <rule ref="Squiz.PHP.NonExecutableCode"/>
