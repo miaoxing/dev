@@ -53,7 +53,7 @@
 
   <rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/ConstructorNewOperator">
     <properties>
-      <property name="allowedClassNames" value="DateTime,ArrayCollection,ArrayObject,stdClass"/>
+      <property name="allowedClassNames" value="Exception,DateTime,ArrayCollection,ArrayObject,stdClass"/>
     </properties>
   </rule>
   <rule ref="vendor/mi-schi/phpmd-extension/rulesets/cleancode.xml/PublicFieldDeclaration"/>
