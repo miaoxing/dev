@@ -2,7 +2,7 @@
 
 set -e
 
-vendor/bin/phpcs --config-set installed_paths vendor/miaoxing/coding-standards
+vendor/bin/phpcs --config-set installed_paths vendor/miaoxing/coding-standards,vendor/wp-coding-standards/wpcs
 vendor/bin/phpcs -i
 
 if [[ -e "phpcs.xml.dist" ]]; then

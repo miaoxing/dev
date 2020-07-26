@@ -48,7 +48,6 @@
   </rule>
 
   <rule ref="Generic.PHP.ForbiddenFunctions"/>
-  <rule ref="Generic.PHP.NoSilencedErrors"/>
 
   <!-- Conflict with js template: <% %> <%= %> -->
   <rule ref="Generic.PHP.DisallowAlternativePHPTags">
@@ -97,4 +96,6 @@
   <rule ref="Internal.NoCodeFound">
     <severity>0</severity>
   </rule>
+
+  <rule ref="WordPress.PHP.NoSilencedErrors.Discouraged"/>
 </ruleset>

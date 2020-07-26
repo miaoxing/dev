@@ -20,7 +20,8 @@
     "phpstan/phpstan": "^0.12.30",
     "phpstan/phpstan-phpunit": "^0.12.11",
     "wei/wei": "^0.9.24",
-    "phpstan/extension-installer": "^1.0"
+    "phpstan/extension-installer": "^1.0",
+    "wp-coding-standards/wpcs": "^2.3"
   },
   "autoload": {
     "psr-4": {
