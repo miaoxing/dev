@@ -1,3 +1,15 @@
+# [5.2.0](https://github.com/miaoxing/coding-standards/compare/v5.1.5...v5.2.0) (2020-07-26)
+
+
+### Bug Fixes
+
+* **phpcs:** 排除 PrivateNoUnderscore 规则，根据 PSR-12 不需要下划线 ([8bd0b00](https://github.com/miaoxing/coding-standards/commit/8bd0b007eb62dd9e11c0d21df766733e9bfebda9))
+
+
+### Features
+
+* **phpcs:** 增加 wp-coding-standards/wpcs, 改用 wp 的 NoSilencedErrors ([c8e6cdd](https://github.com/miaoxing/coding-standards/commit/c8e6cdddfa517e5f376a92bcf88c7c8ddd17c75a))
+
 ## [5.1.5](https://github.com/miaoxing/coding-standards/compare/v5.1.4...v5.1.5) (2020-07-25)
 
 
