@@ -1,3 +1,10 @@
+## [5.2.1](https://github.com/miaoxing/coding-standards/compare/v5.2.0...v5.2.1) (2020-08-04)
+
+
+### Bug Fixes
+
+* **php-cs-fixer:** 禁用 php_unit_internal_class，会将 Test 结尾的类都加上 [@internal](https://github.com/internal) ([9e848ee](https://github.com/miaoxing/coding-standards/commit/9e848ee82bfe3c6964e5d375b8d83d2da079ff46))
+
 # [5.2.0](https://github.com/miaoxing/coding-standards/compare/v5.1.5...v5.2.0) (2020-07-26)
 
 
