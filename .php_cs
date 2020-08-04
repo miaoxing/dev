@@ -60,6 +60,8 @@ return PhpCsFixer\Config::create()
         'phpdoc_no_alias_tag' => false,
         // 代码高亮可以清楚展示出来
         'explicit_string_variable' => false,
+        // 会将 Test 结尾的类都加上 @internal
+        'php_unit_internal_class' => false,
         'php_unit_test_class_requires_covers' => false,
         'php_unit_test_case_static_method_calls' => false,
         // 视图变量中应使用<?=
