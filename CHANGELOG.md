@@ -1,3 +1,10 @@
+## [5.3.1](https://github.com/miaoxing/coding-standards/compare/v5.3.0...v5.3.1) (2020-08-11)
+
+
+### Bug Fixes
+
+* **phpmnd:** add bin file ([d0d1312](https://github.com/miaoxing/coding-standards/commit/d0d1312b9141e8a9b6cb180dcbd4bcf306a47ba2))
+
 # [5.3.0](https://github.com/miaoxing/coding-standards/compare/v5.2.1...v5.3.0) (2020-08-11)
 
 
