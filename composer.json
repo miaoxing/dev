@@ -9,6 +9,7 @@
     "bin/miaoxing-php-cs-fixer",
     "bin/miaoxing-phpcs",
     "bin/miaoxing-phpmd",
+    "bin/miaoxing-phpmnd",
     "bin/miaoxing-phpstan",
     "bin/miaoxing-phpunit"
   ],
