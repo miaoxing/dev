@@ -1,3 +1,10 @@
+# [5.3.0](https://github.com/miaoxing/coding-standards/compare/v5.2.1...v5.3.0) (2020-08-11)
+
+
+### Features
+
+* **phpmnd:** add phpmnd to check magic number ([20471b4](https://github.com/miaoxing/coding-standards/commit/20471b4e316fd5168b8a16952ba8ffe88d14654d))
+
 ## [5.2.1](https://github.com/miaoxing/coding-standards/compare/v5.2.0...v5.2.1) (2020-08-04)
 
 
