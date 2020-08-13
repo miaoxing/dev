@@ -1,9 +1,9 @@
 {
-  "name": "miaoxing-coding-standards",
+  "name": "@miaoxing/dev",
   "version": "5.3.2",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
-  "repository": "https://github.com/miaoxing/coding-standards.git",
+  "repository": "https://github.com/miaoxing/dev.git",
   "author": "twinh <twinhuang@qq.com>",
   "license": "MIT",
   "files": [

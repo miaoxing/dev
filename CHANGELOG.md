@@ -1,120 +1,120 @@
-## [5.3.2](https://github.com/miaoxing/coding-standards/compare/v5.3.1...v5.3.2) (2020-08-13)
+## [5.3.2](https://github.com/miaoxing/dev/compare/v5.3.1...v5.3.2) (2020-08-13)
 
 
 ### Bug Fixes
 
-* **eslint:** no-unused-vars 设置 ignoreRestSiblings 为 true ([9cfc415](https://github.com/miaoxing/coding-standards/commit/9cfc415808f9fad140fc3f8a4d64215670d6ad69))
+* **eslint:** no-unused-vars 设置 ignoreRestSiblings 为 true ([9cfc415](https://github.com/miaoxing/dev/commit/9cfc415808f9fad140fc3f8a4d64215670d6ad69))
 
-## [5.3.1](https://github.com/miaoxing/coding-standards/compare/v5.3.0...v5.3.1) (2020-08-11)
+## [5.3.1](https://github.com/miaoxing/dev/compare/v5.3.0...v5.3.1) (2020-08-11)
 
 
 ### Bug Fixes
 
-* **phpmnd:** add bin file ([d0d1312](https://github.com/miaoxing/coding-standards/commit/d0d1312b9141e8a9b6cb180dcbd4bcf306a47ba2))
+* **phpmnd:** add bin file ([d0d1312](https://github.com/miaoxing/dev/commit/d0d1312b9141e8a9b6cb180dcbd4bcf306a47ba2))
 
-# [5.3.0](https://github.com/miaoxing/coding-standards/compare/v5.2.1...v5.3.0) (2020-08-11)
+# [5.3.0](https://github.com/miaoxing/dev/compare/v5.2.1...v5.3.0) (2020-08-11)
 
 
 ### Features
 
-* **phpmnd:** add phpmnd to check magic number ([20471b4](https://github.com/miaoxing/coding-standards/commit/20471b4e316fd5168b8a16952ba8ffe88d14654d))
+* **phpmnd:** add phpmnd to check magic number ([20471b4](https://github.com/miaoxing/dev/commit/20471b4e316fd5168b8a16952ba8ffe88d14654d))
 
-## [5.2.1](https://github.com/miaoxing/coding-standards/compare/v5.2.0...v5.2.1) (2020-08-04)
-
-
-### Bug Fixes
-
-* **php-cs-fixer:** 禁用 php_unit_internal_class，会将 Test 结尾的类都加上 [@internal](https://github.com/internal) ([9e848ee](https://github.com/miaoxing/coding-standards/commit/9e848ee82bfe3c6964e5d375b8d83d2da079ff46))
-
-# [5.2.0](https://github.com/miaoxing/coding-standards/compare/v5.1.5...v5.2.0) (2020-07-26)
+## [5.2.1](https://github.com/miaoxing/dev/compare/v5.2.0...v5.2.1) (2020-08-04)
 
 
 ### Bug Fixes
 
-* **phpcs:** 排除 PrivateNoUnderscore 规则，根据 PSR-12 不需要下划线 ([8bd0b00](https://github.com/miaoxing/coding-standards/commit/8bd0b007eb62dd9e11c0d21df766733e9bfebda9))
+* **php-cs-fixer:** 禁用 php_unit_internal_class，会将 Test 结尾的类都加上 [@internal](https://github.com/internal) ([9e848ee](https://github.com/miaoxing/dev/commit/9e848ee82bfe3c6964e5d375b8d83d2da079ff46))
+
+# [5.2.0](https://github.com/miaoxing/dev/compare/v5.1.5...v5.2.0) (2020-07-26)
+
+
+### Bug Fixes
+
+* **phpcs:** 排除 PrivateNoUnderscore 规则，根据 PSR-12 不需要下划线 ([8bd0b00](https://github.com/miaoxing/dev/commit/8bd0b007eb62dd9e11c0d21df766733e9bfebda9))
 
 
 ### Features
 
-* **phpcs:** 增加 wp-coding-standards/wpcs, 改用 wp 的 NoSilencedErrors ([c8e6cdd](https://github.com/miaoxing/coding-standards/commit/c8e6cdddfa517e5f376a92bcf88c7c8ddd17c75a))
+* **phpcs:** 增加 wp-coding-standards/wpcs, 改用 wp 的 NoSilencedErrors ([c8e6cdd](https://github.com/miaoxing/dev/commit/c8e6cdddfa517e5f376a92bcf88c7c8ddd17c75a))
 
-## [5.1.5](https://github.com/miaoxing/coding-standards/compare/v5.1.4...v5.1.5) (2020-07-25)
-
-
-### Bug Fixes
-
-* **phpmd:** 允许更多短变量名和方法名 ([8bf4b18](https://github.com/miaoxing/coding-standards/commit/8bf4b181174da3e5249c458cbae432f350032775))
-* **phpmd:** 允许构造函数中实例化异常类 ([addc430](https://github.com/miaoxing/coding-standards/commit/addc430df16df0e84200343943c5ac89b9d8f4e3))
-* **phpmd:** 允许构造函数中实例化特定的类 ([d0620b0](https://github.com/miaoxing/coding-standards/commit/d0620b0cf4675e49225b87912088e136cbbcc929))
-
-## [5.1.4](https://github.com/miaoxing/coding-standards/compare/v5.1.3...v5.1.4) (2020-07-24)
+## [5.1.5](https://github.com/miaoxing/dev/compare/v5.1.4...v5.1.5) (2020-07-25)
 
 
 ### Bug Fixes
 
-* 允许 $os 变量 ([4c01a39](https://github.com/miaoxing/coding-standards/commit/4c01a390c0d8d8d64d71fc57d9533a96a79b0b3d))
+* **phpmd:** 允许更多短变量名和方法名 ([8bf4b18](https://github.com/miaoxing/dev/commit/8bf4b181174da3e5249c458cbae432f350032775))
+* **phpmd:** 允许构造函数中实例化异常类 ([addc430](https://github.com/miaoxing/dev/commit/addc430df16df0e84200343943c5ac89b9d8f4e3))
+* **phpmd:** 允许构造函数中实例化特定的类 ([d0620b0](https://github.com/miaoxing/dev/commit/d0620b0cf4675e49225b87912088e136cbbcc929))
 
-## [5.1.3](https://github.com/miaoxing/coding-standards/compare/v5.1.2...v5.1.3) (2020-07-24)
-
-
-### Bug Fixes
-
-* **dep:** 更新 wei/wei 到 0.9.24 ([f5b3b1a](https://github.com/miaoxing/coding-standards/commit/f5b3b1a7587e026fa48b0a5677cbf18fca3e894e))
-
-## [5.1.2](https://github.com/miaoxing/coding-standards/compare/v5.1.1...v5.1.2) (2020-07-12)
+## [5.1.4](https://github.com/miaoxing/dev/compare/v5.1.3...v5.1.4) (2020-07-24)
 
 
 ### Bug Fixes
 
-* **deps:** bump npm from 6.14.5 to 6.14.6 ([be080fb](https://github.com/miaoxing/coding-standards/commit/be080fb9b49ecbd82bd326a229a89520c5e19acd))
+* 允许 $os 变量 ([4c01a39](https://github.com/miaoxing/dev/commit/4c01a390c0d8d8d64d71fc57d9533a96a79b0b3d))
 
-## [5.1.1](https://github.com/miaoxing/coding-standards/compare/v5.1.0...v5.1.1) (2020-06-24)
-
-
-### Bug Fixes
-
-* **phpstan:** 更新 phpstan/phpstan 到 ^0.12.30 ([126cf78](https://github.com/miaoxing/coding-standards/commit/126cf78dd41028fbb1f4481a4d7b9e048b6daaa1))
-
-# [5.1.0](https://github.com/miaoxing/coding-standards/compare/v5.0.0...v5.1.0) (2020-06-21)
+## [5.1.3](https://github.com/miaoxing/dev/compare/v5.1.2...v5.1.3) (2020-07-24)
 
 
 ### Bug Fixes
 
-* **phpstan:** 插件目录不在 vendor 中会提示 Could not read file ([de8dcab](https://github.com/miaoxing/coding-standards/commit/de8dcab0faf9fb7fb73a46c7c56e9f4746394ac7))
-* **phpstan:** 移除 level 参数，实际无效，会提示 No rules detected ([59036eb](https://github.com/miaoxing/coding-standards/commit/59036eb938adc37b7eba2128b9735cf85c9b7495))
+* **dep:** 更新 wei/wei 到 0.9.24 ([f5b3b1a](https://github.com/miaoxing/dev/commit/f5b3b1a7587e026fa48b0a5677cbf18fca3e894e))
+
+## [5.1.2](https://github.com/miaoxing/dev/compare/v5.1.1...v5.1.2) (2020-07-12)
+
+
+### Bug Fixes
+
+* **deps:** bump npm from 6.14.5 to 6.14.6 ([be080fb](https://github.com/miaoxing/dev/commit/be080fb9b49ecbd82bd326a229a89520c5e19acd))
+
+## [5.1.1](https://github.com/miaoxing/dev/compare/v5.1.0...v5.1.1) (2020-06-24)
+
+
+### Bug Fixes
+
+* **phpstan:** 更新 phpstan/phpstan 到 ^0.12.30 ([126cf78](https://github.com/miaoxing/dev/commit/126cf78dd41028fbb1f4481a4d7b9e048b6daaa1))
+
+# [5.1.0](https://github.com/miaoxing/dev/compare/v5.0.0...v5.1.0) (2020-06-21)
+
+
+### Bug Fixes
+
+* **phpstan:** 插件目录不在 vendor 中会提示 Could not read file ([de8dcab](https://github.com/miaoxing/dev/commit/de8dcab0faf9fb7fb73a46c7c56e9f4746394ac7))
+* **phpstan:** 移除 level 参数，实际无效，会提示 No rules detected ([59036eb](https://github.com/miaoxing/dev/commit/59036eb938adc37b7eba2128b9735cf85c9b7495))
 
 
 ### Features
 
-* **phpstan:** 增加默认的配置文件 ([502c4e8](https://github.com/miaoxing/coding-standards/commit/502c4e82a1c3b1bcf8e997566d48898b9853ee66))
+* **phpstan:** 增加默认的配置文件 ([502c4e8](https://github.com/miaoxing/dev/commit/502c4e82a1c3b1bcf8e997566d48898b9853ee66))
 
-# [5.0.0](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v5.0.0) (2020-06-21)
+# [5.0.0](https://github.com/miaoxing/dev/compare/v4.2.0...v5.0.0) (2020-06-21)
 
 
 ### Bug Fixes
 
-* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/coding-standards/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
-* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/coding-standards/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
-* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/coding-standards/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
-* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/coding-standards/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
-* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/coding-standards/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
-* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/coding-standards/commit/751812f87d55069e06e7338a694c1bb13073acf0))
+* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/dev/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
+* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/dev/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
+* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/dev/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
+* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/dev/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
+* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/dev/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
+* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/dev/commit/751812f87d55069e06e7338a694c1bb13073acf0))
 
 
 ### Code Refactoring
 
-* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/coding-standards/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
+* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/dev/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
 
 
 ### Features
 
-* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/coding-standards/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
-* 初始化 jest ([460c4ee](https://github.com/miaoxing/coding-standards/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
-* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/coding-standards/commit/0734113323d23aa691631a649beb43b91774cb0d))
-* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/coding-standards/commit/74669ade6237e0b879a0ac0c842876369e35c040))
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/dev/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
+* 初始化 jest ([460c4ee](https://github.com/miaoxing/dev/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
+* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/dev/commit/0734113323d23aa691631a649beb43b91774cb0d))
+* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/dev/commit/74669ade6237e0b879a0ac0c842876369e35c040))
 
 
-* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/coding-standards/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
+* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/dev/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
 
 
 ### BREAKING CHANGES
@@ -122,111 +122,111 @@
 * 更新 stylelint 和配置
 * 简化 eslint 配置
 
-# [5.0.0-beta.9](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2020-06-21)
+# [5.0.0-beta.9](https://github.com/miaoxing/dev/compare/v5.0.0-beta.8...v5.0.0-beta.9) (2020-06-21)
 
 
 ### Bug Fixes
 
-* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/coding-standards/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
+* **phpstan:** 需指定加载目录 ([60bd52f](https://github.com/miaoxing/dev/commit/60bd52f1f0a3b3ac686a3fb4c33c5541106bcbe3))
 
-# [5.0.0-beta.8](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2020-06-21)
+# [5.0.0-beta.8](https://github.com/miaoxing/dev/compare/v5.0.0-beta.7...v5.0.0-beta.8) (2020-06-21)
 
 
 ### Features
 
-* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/coding-standards/commit/0734113323d23aa691631a649beb43b91774cb0d))
+* 增加 phpstan 和处理 wei 的扩展 ([0734113](https://github.com/miaoxing/dev/commit/0734113323d23aa691631a649beb43b91774cb0d))
 
-# [5.0.0-beta.7](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2020-06-16)
-
-
-### Bug Fixes
-
-* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/coding-standards/commit/751812f87d55069e06e7338a694c1bb13073acf0))
-
-# [5.0.0-beta.6](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2020-06-16)
+# [5.0.0-beta.7](https://github.com/miaoxing/dev/compare/v5.0.0-beta.6...v5.0.0-beta.7) (2020-06-16)
 
 
 ### Bug Fixes
 
-* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/coding-standards/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
+* 移除 react/display-name 规则 ([751812f](https://github.com/miaoxing/dev/commit/751812f87d55069e06e7338a694c1bb13073acf0))
 
-# [5.0.0-beta.5](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2020-06-15)
-
-
-### Bug Fixes
-
-* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/coding-standards/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
-
-# [5.0.0-beta.4](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2020-06-15)
+# [5.0.0-beta.6](https://github.com/miaoxing/dev/compare/v5.0.0-beta.5...v5.0.0-beta.6) (2020-06-16)
 
 
 ### Bug Fixes
 
-* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/coding-standards/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
-* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/coding-standards/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
+* phpcs 排除和 js 模板语法冲突的规则 ([14f711d](https://github.com/miaoxing/dev/commit/14f711dcd115b51d4172cb2cda7e21f75e24de47))
+
+# [5.0.0-beta.5](https://github.com/miaoxing/dev/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2020-06-15)
+
+
+### Bug Fixes
+
+* 增加 miaoxing-jest 命令 ([4b02a77](https://github.com/miaoxing/dev/commit/4b02a77619b88525cac3d035b8c828a3e2ed44db))
+
+# [5.0.0-beta.4](https://github.com/miaoxing/dev/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2020-06-15)
+
+
+### Bug Fixes
+
+* php-cs-fixer fix 命令没有生效 ([3a062b6](https://github.com/miaoxing/dev/commit/3a062b6e03e7ab2c03fefa3066f83f15c1550ab2))
+* 忽略目录下没有匹配的文件的情况 ([654cc60](https://github.com/miaoxing/dev/commit/654cc60c3c06b46892a9b2bb73a4ee9bc2f2cedc))
 
 
 ### Features
 
-* 初始化 jest ([460c4ee](https://github.com/miaoxing/coding-standards/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
+* 初始化 jest ([460c4ee](https://github.com/miaoxing/dev/commit/460c4eedf2816a58301cb4ea2a32d1235bd61dc1))
 
-# [5.0.0-beta.3](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2020-06-10)
+# [5.0.0-beta.3](https://github.com/miaoxing/dev/compare/v5.0.0-beta.2...v5.0.0-beta.3) (2020-06-10)
 
 
 ### Features
 
-* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/coding-standards/commit/74669ade6237e0b879a0ac0c842876369e35c040))
+* 增加默认 stylelintignore ([74669ad](https://github.com/miaoxing/dev/commit/74669ade6237e0b879a0ac0c842876369e35c040))
 
-# [5.0.0-beta.2](https://github.com/miaoxing/coding-standards/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2020-06-10)
+# [5.0.0-beta.2](https://github.com/miaoxing/dev/compare/v5.0.0-beta.1...v5.0.0-beta.2) (2020-06-10)
 
 
 ### Code Refactoring
 
-* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/coding-standards/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
+* 更新 stylelint 和配置 ([3a897c9](https://github.com/miaoxing/dev/commit/3a897c90e845a0e2d9ee3b7be6d44734354d159a))
 
 
 ### BREAKING CHANGES
 
 * 更新 stylelint 和配置
 
-# [5.0.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.3.0-beta.1...v5.0.0-beta.1) (2020-06-10)
+# [5.0.0-beta.1](https://github.com/miaoxing/dev/compare/v4.3.0-beta.1...v5.0.0-beta.1) (2020-06-10)
 
 
-* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/coding-standards/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
+* refactor!: 简化 eslint 配置 ([5a356ee](https://github.com/miaoxing/dev/commit/5a356ee99d2d4fda522d15b506e5592233ad7f80))
 
 
 ### BREAKING CHANGES
 
 * 简化 eslint 配置
 
-# [4.3.0-beta.1](https://github.com/miaoxing/coding-standards/compare/v4.2.0...v4.3.0-beta.1) (2020-06-10)
+# [4.3.0-beta.1](https://github.com/miaoxing/dev/compare/v4.2.0...v4.3.0-beta.1) (2020-06-10)
 
 
 ### Features
 
-* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/coding-standards/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([c19799c](https://github.com/miaoxing/dev/commit/c19799ca351069d8d632cd01e7cd5275dc6868d1))
 
-# [4.2.0](https://github.com/miaoxing/coding-standards/compare/v4.1.1...v4.2.0) (2020-06-10)
+# [4.2.0](https://github.com/miaoxing/dev/compare/v4.1.1...v4.2.0) (2020-06-10)
 
 
 ### Features
 
-* 允许命令结尾传入 fix 来执行 eslint, stylelint 修复操作 ([8e2d4c1](https://github.com/miaoxing/coding-standards/commit/8e2d4c1d004f3bdcf13608d49ab228946d41d186))
-* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([d2518da](https://github.com/miaoxing/coding-standards/commit/d2518da6fed717727f970838c59a64ce7c216d98))
+* 允许命令结尾传入 fix 来执行 eslint, stylelint 修复操作 ([8e2d4c1](https://github.com/miaoxing/dev/commit/8e2d4c1d004f3bdcf13608d49ab228946d41d186))
+* 允许命令结尾传入 fix 来执行 phpcbf，php-cs-fixer 修复操作 ([d2518da](https://github.com/miaoxing/dev/commit/d2518da6fed717727f970838c59a64ce7c216d98))
 
-## [4.1.1](https://github.com/miaoxing/coding-standards/compare/v4.1.0...v4.1.1) (2020-06-09)
+## [4.1.1](https://github.com/miaoxing/dev/compare/v4.1.0...v4.1.1) (2020-06-09)
 
 
 ### Bug Fixes
 
-* 配置未更新 ([2d75abf](https://github.com/miaoxing/coding-standards/commit/2d75abfb84557aa1100c30fcd1b37ab1cc2f3748))
+* 配置未更新 ([2d75abf](https://github.com/miaoxing/dev/commit/2d75abfb84557aa1100c30fcd1b37ab1cc2f3748))
 
-# [4.1.0](https://github.com/miaoxing/coding-standards/compare/v4.0.1...v4.1.0) (2020-06-09)
+# [4.1.0](https://github.com/miaoxing/dev/compare/v4.0.1...v4.1.0) (2020-06-09)
 
 
 ### Features
 
-* 增加更多检查目录 ([42f83d0](https://github.com/miaoxing/coding-standards/commit/42f83d029c83add19ecb456cbb3021c9913897bd))
+* 增加更多检查目录 ([42f83d0](https://github.com/miaoxing/dev/commit/42f83d029c83add19ecb456cbb3021c9913897bd))
 
 ## 4.0.1 (2020-05-22)
 

@@ -5,7 +5,7 @@ set -e
 if [[ -e "phpmd.xml" ]]; then
   config="phpmd.xml";
 else
-  config="vendor/miaoxing/coding-standards/phpmd.xml";
+  config="vendor/miaoxing/dev/phpmd.xml";
 fi
 
 exist_dirs=()

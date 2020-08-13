@@ -5,7 +5,7 @@ set -e
 if [[ -e "phpstan.neon" ]]; then
   config="phpstan.neon";
 else
-  config="vendor/miaoxing/coding-standards/phpstan.neon";
+  config="vendor/miaoxing/dev/phpstan.neon";
 fi
 
 vendor/bin/phpstan analyse --memory-limit=1G --debug -c ${config}

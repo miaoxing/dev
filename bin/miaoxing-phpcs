@@ -2,13 +2,13 @@
 
 set -e
 
-vendor/bin/phpcs --config-set installed_paths vendor/miaoxing/coding-standards,vendor/wp-coding-standards/wpcs
+vendor/bin/phpcs --config-set installed_paths vendor/miaoxing/dev,vendor/wp-coding-standards/wpcs
 vendor/bin/phpcs -i
 
 if [[ -e "phpcs.xml.dist" ]]; then
   standard="phpcs.xml.dist";
 else
-  standard="vendor/miaoxing/coding-standards/phpcs.xml.dist";
+  standard="vendor/miaoxing/dev/phpcs.xml.dist";
 fi
 
 # Run `miaoxing-phpcs fix` to execute phpcbf

@@ -5,7 +5,7 @@ set -e
 if [[ -e ".php_cs" ]]; then
   config=".php_cs";
 else
-  config="vendor/miaoxing/coding-standards/.php_cs";
+  config="vendor/miaoxing/dev/.php_cs";
 fi
 
 # Run `miaoxing-php-cs-fixer fix` to execute fix

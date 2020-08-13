@@ -1,12 +1,12 @@
-Miaoxing Coding Standards
-=========================
+Miaoxing Dev
+============
 
-## 使用方法
+## PHPCS 使用方法
 
 1. 取出到本地
 
   ```sh
-  git clone https://github.com/miaoxing/coding-standards.git path/to/coding-standards
+  git clone https://github.com/miaoxing/dev.git path/to/coding-standards
   ```
 
 2. 加入phpcs的安装目录
@@ -20,6 +20,6 @@ Miaoxing Coding Standards
   ```sh
   phpcs -i
 
-  # 输出包含"Miaoxing"
+  # 输出包含 "Miaoxing"
   'The installed coding standards are MySource, PEAR, PHPCS, PSR1, PSR2, Squiz, Zend and Miaoxing'
   ```

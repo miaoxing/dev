@@ -5,14 +5,14 @@ set -e
 # 如果没有忽略文件，拷贝默认配置
 copied_ignore_file=false
 if [[ ! -e ".stylelintignore" ]]; then
-  cp "node_modules/miaoxing-coding-standards/.stylelintignore" ".stylelintignore";
+  cp "node_modules/@miaoxing/dev/.stylelintignore" ".stylelintignore";
   copied_ignore_file=true
 fi
 
 if [[ -e ".stylelintrc.json" ]]; then
  config=".stylelintrc.json";
 else
- config="node_modules/miaoxing-coding-standards/.stylelintrc.json";
+ config="node_modules/@miaoxing/dev/.stylelintrc.json";
 fi
 
 if [[ $1 = 'fix' ]]; then
