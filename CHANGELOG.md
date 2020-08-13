@@ -1,3 +1,10 @@
+## [5.3.2](https://github.com/miaoxing/coding-standards/compare/v5.3.1...v5.3.2) (2020-08-13)
+
+
+### Bug Fixes
+
+* **eslint:** no-unused-vars 设置 ignoreRestSiblings 为 true ([9cfc415](https://github.com/miaoxing/coding-standards/commit/9cfc415808f9fad140fc3f8a4d64215670d6ad69))
+
 ## [5.3.1](https://github.com/miaoxing/coding-standards/compare/v5.3.0...v5.3.1) (2020-08-11)
 
 
