@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/miaoxing/dev/compare/v5.3.2...v6.0.0) (2020-08-13)
+
+
+### Code Refactoring
+
+* rename from coding-standards to dev ([08ce7c0](https://github.com/miaoxing/dev/commit/08ce7c08575d8f5a352d41a2108aa5d0ffb9f803))
+
+
+### BREAKING CHANGES
+
+* rename from coding-standards to dev
+
 ## [5.3.2](https://github.com/miaoxing/dev/compare/v5.3.1...v5.3.2) (2020-08-13)
 
 
