@@ -1,3 +1,10 @@
+## [6.0.1](https://github.com/miaoxing/dev/compare/v6.0.0...v6.0.1) (2020-08-14)
+
+
+### Bug Fixes
+
+* 去掉 wei/wei 依赖，改为内置类 ([f89ae43](https://github.com/miaoxing/dev/commit/f89ae438152d2ad2164c1d7d20a9c0088ea1f1eb))
+
 # [6.0.0](https://github.com/miaoxing/dev/compare/v5.3.2...v6.0.0) (2020-08-13)
 
 
