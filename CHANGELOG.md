@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/miaoxing/dev/compare/v6.0.1...v6.1.0) (2020-08-14)
+
+
+### Features
+
+* 增加 babel-preset-miaoxing 和 jest-preset-miaoxing 依赖 ([a013c11](https://github.com/miaoxing/dev/commit/a013c113159be9c528644eb0f88908490bb4a6fc))
+
 ## [6.0.1](https://github.com/miaoxing/dev/compare/v6.0.0...v6.0.1) (2020-08-14)
 
 
