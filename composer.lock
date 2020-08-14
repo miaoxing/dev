@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a7277313c6628a63e2fef88bb110228",
+    "content-hash": "cbf1ddcdb978b8eed44893e5cff8206c",
     "packages": [
         {
             "name": "composer/semver",
@@ -1802,6 +1802,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2020-06-16T07:00:44+00:00"
         },
         {
@@ -4523,60 +4524,6 @@
                 "validate"
             ],
             "time": "2020-06-16T10:16:42+00:00"
-        },
-        {
-            "name": "wei/wei",
-            "version": "v0.9.24",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twinh/wei.git",
-                "reference": "8de8ec675fc2f9302c88ae776730493a48bf35e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twinh/wei/zipball/8de8ec675fc2f9302c88ae776730493a48bf35e1",
-                "reference": "8de8ec675fc2f9302c88ae776730493a48bf35e1",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "joseph-lenton/php-error": "dev-master",
-                "phpunit/phpunit": "^8"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/Wei.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Twin Huang",
-                    "email": "twinhuang@qq.com",
-                    "homepage": "https://github.com/twinh/wei"
-                }
-            ],
-            "description": "A micro-framework provided powerful and simple APIs for faster and easier PHP development.",
-            "homepage": "https://github.com/twinh/wei",
-            "keywords": [
-                "cache",
-                "database",
-                "framework",
-                "validator"
-            ],
-            "time": "2020-07-23T03:51:29+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
