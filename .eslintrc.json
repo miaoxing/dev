@@ -41,6 +41,10 @@
       "error",
       "always"
     ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
     // 导致
     // 1. 不能用箭头函数定义组件
     // 2. 象表格的 render 这类的渲染函数也需加上
