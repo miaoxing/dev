@@ -25,7 +25,7 @@ exit_code=0
 yarn eslint --no-error-on-unmatched-pattern --config=${config} . ${fix} || exit_code=$?
 
 # 还原拷贝的文件
-if [[ copied_ignore_file ]]; then
+if ${copied_ignore_file}; then
   rm ".eslintignore"
 fi
 
