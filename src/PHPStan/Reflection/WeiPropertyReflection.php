@@ -10,9 +10,9 @@ class WeiPropertyReflection implements PropertyReflection
     protected $type;
     protected $classReflection;
 
-    public function __construct($class, $classReflection)
+    public function __construct(ObjectType $type, $classReflection)
     {
-        $this->type = new ObjectType($class);
+        $this->type = $type;
         $this->classReflection = $classReflection;
     }
 

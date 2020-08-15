@@ -21,6 +21,8 @@ use Wei\Wei;
  *
  * 对应错误：
  * "#^Call to an undefined method Wei\\\\Wei\\:\\:(.+?)\\(\\)\\.$#"
+ *
+ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class WeiMethodExtension implements \PHPStan\Reflection\MethodsClassReflectionExtension, BrokerAwareExtension
 {
@@ -37,7 +39,7 @@ class WeiMethodExtension implements \PHPStan\Reflection\MethodsClassReflectionEx
 
     public function hasMethod(ClassReflection $classReflection, string $methodName): bool
     {
-        return $classReflection->getName() === Wei::class
+        return Wei::class === $classReflection->getName()
             && !method_exists(Wei::class, $methodName)
             && \wei()->has($methodName);
     }

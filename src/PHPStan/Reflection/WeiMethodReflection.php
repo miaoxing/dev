@@ -3,9 +3,7 @@
 namespace Miaoxing\CodingStandards\PHPStan\Reflection;
 
 use PHPStan\Reflection\ClassReflection;
-use PHPStan\Reflection\FunctionVariant;
 use PHPStan\Reflection\MethodReflection;
-use PHPStan\Type\Generic\TemplateTypeMap;
 
 class WeiMethodReflection implements \PHPStan\Reflection\MethodReflection
 {
@@ -36,7 +34,7 @@ class WeiMethodReflection implements \PHPStan\Reflection\MethodReflection
         $this->variants = $variants;
     }
 
-    public function getDeclaringClass(): \PHPStan\Reflection\ClassReflection
+    public function getDeclaringClass(): ClassReflection
     {
         return $this->methodReflection->getDeclaringClass();
     }

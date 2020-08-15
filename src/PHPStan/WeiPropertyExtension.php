@@ -6,6 +6,7 @@ use Miaoxing\CodingStandards\PHPStan\Reflection\WeiPropertyReflection;
 use PHPStan\Reflection\ClassReflection;
 use PHPStan\Reflection\PropertiesClassReflectionExtension;
 use PHPStan\Reflection\PropertyReflection;
+use PHPStan\Type\ObjectType;
 use Wei\Wei;
 
 /**
@@ -24,7 +25,7 @@ class WeiPropertyExtension implements PropertiesClassReflectionExtension
 
     public function hasProperty(ClassReflection $classReflection, string $propertyName): bool
     {
-        return $classReflection->getName() === Wei::class
+        return Wei::class === $classReflection->getName()
             && !property_exists(Wei::class, $propertyName)
             && \wei()->has($propertyName);
     }
@@ -32,6 +33,6 @@ class WeiPropertyExtension implements PropertiesClassReflectionExtension
     public function getProperty(ClassReflection $classReflection, string $propertyName): PropertyReflection
     {
         $class = wei()->getClass($propertyName);
-        return new WeiPropertyReflection($class, $classReflection);
+        return new WeiPropertyReflection(new ObjectType($class), $classReflection);
     }
 }
