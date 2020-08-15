@@ -20,6 +20,11 @@
     "miaoxing-jest": "bin/miaoxing-jest",
     "miaoxing-stylelint": "bin/miaoxing-stylelint"
   },
+  "scripts": {
+    "miaoxing-eslint": "bin/miaoxing-eslint",
+    "miaoxing-jest": "bin/miaoxing-jest",
+    "miaoxing-stylelint": "bin/miaoxing-stylelint"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

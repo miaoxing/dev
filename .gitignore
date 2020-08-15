@@ -1,3 +1,15 @@
-vendor/
-node_modules/
+.idea/
+
+# js
+/node_modules/
+/dist/
+/coverage/
+/yarn.lock
 /yarn-error.log
+
+# php
+/vendor/
+composer.lock
+phpunit.xml
+.php_cs.cache
+.phpunit.result.cache
