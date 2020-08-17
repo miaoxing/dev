@@ -22,7 +22,7 @@
     "phpstan/phpstan-phpunit": "^0.12.11",
     "phpstan/extension-installer": "^1.0",
     "wp-coding-standards/wpcs": "^2.3",
-    "povils/phpmnd": "^2.3.2"
+    "miaoxing/phpmnd": "^2.3"
   },
   "autoload": {
     "psr-4": {
@@ -30,12 +30,6 @@
       "Wei\\": "src\\Wei"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/twinh/phpmnd"
-    }
-  ],
   "extra": {
     "phpstan": {
       "includes": [

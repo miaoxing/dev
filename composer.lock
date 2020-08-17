@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbf1ddcdb978b8eed44893e5cff8206c",
+    "content-hash": "790bb9fa0491623cc2240e0103a3c0e9",
     "packages": [
         {
             "name": "composer/semver",
@@ -528,6 +528,65 @@
                 "rules"
             ],
             "time": "2018-08-15T09:09:59+00:00"
+        },
+        {
+            "name": "miaoxing/phpmnd",
+            "version": "v2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miaoxing/phpmnd.git",
+                "reference": "3e509458ea95fb9c558063673bdc0aae927abb3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miaoxing/phpmnd/zipball/3e509458ea95fb9c558063673bdc0aae927abb3b",
+                "reference": "3e509458ea95fb9c558063673bdc0aae927abb3b",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "nikic/php-parser": "^4.0",
+                "php": "^7.1",
+                "php-parallel-lint/php-console-highlighter": "^0.4",
+                "phpunit/php-timer": "^2.0||^3.0||^4.0||^5.0",
+                "symfony/console": "^4.0||^5.0",
+                "symfony/finder": "^4.0||^5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0||^8.0||^9.0",
+                "squizlabs/php_codesniffer": "^2.8.1||^3.5"
+            },
+            "bin": [
+                "bin/phpmnd"
+            ],
+            "type": "application",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Povils\\PHPMND\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Povilas Susinskas",
+                    "email": "povilassusinskas@gmail.com"
+                }
+            ],
+            "description": "A tool to detect Magic numbers in codebase",
+            "time": "2020-08-11T07:43:45+00:00"
         },
         {
             "name": "myclabs/deep-copy",
