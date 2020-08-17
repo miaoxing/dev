@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/dev",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
   "repository": "https://github.com/miaoxing/dev.git",
@@ -35,7 +35,7 @@
     "eslint": "^7.2.0",
     "eslint-plugin-react": "^7.20.0",
     "jest": "^26.0.1",
-    "jest-preset-miaoxing": "^0.1.0",
+    "jest-preset-miaoxing": "^0.2.0",
     "stylelint": "^13.6.0",
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^20.0.0",

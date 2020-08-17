@@ -1,16 +1,51 @@
-# [6.1.0](https://github.com/miaoxing/dev/compare/v6.0.1...v6.1.0) (2020-08-14)
+## [6.1.1](https://github.com/miaoxing/dev/compare/v6.1.0...v6.1.1) (2020-08-17)
+
+
+### Bug Fixes
+
+* bash false 判断不用加 [[]] ([344d4c9](https://github.com/miaoxing/dev/commit/344d4c9fcf4a612f356cdf26e01616579bfc9b87))
+* 解决 phpmnd 安装需配置 repositories 的问题 ([cb43207](https://github.com/miaoxing/dev/commit/cb432075dc2173ab5e97b2743adb0471b77378b9))
+
+
+
+
+
+### Dependencies
+
+* **jest-preset-miaoxing:** upgrade from 0.1.0 to 0.2.0
+
+# [6.1.0](https://github.com/miaoxing/dev/compare/v6.0.0...v6.1.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* **release:** 发布 npm 失败 ([2f313ac](https://github.com/miaoxing/dev/commit/2f313acd8abb40fcaa9e092877ff1cc315f0c588))
+* 去掉 wei/wei 依赖，改为内置类 ([f89ae43](https://github.com/miaoxing/dev/commit/f89ae438152d2ad2164c1d7d20a9c0088ea1f1eb))
 
 
 ### Features
 
 * 增加 babel-preset-miaoxing 和 jest-preset-miaoxing 依赖 ([a013c11](https://github.com/miaoxing/dev/commit/a013c113159be9c528644eb0f88908490bb4a6fc))
 
-## [6.0.1](https://github.com/miaoxing/dev/compare/v6.0.0...v6.0.1) (2020-08-14)
+# 0.1.0 (2020-08-14)
 
 
 ### Bug Fixes
 
-* 去掉 wei/wei 依赖，改为内置类 ([f89ae43](https://github.com/miaoxing/dev/commit/f89ae438152d2ad2164c1d7d20a9c0088ea1f1eb))
+* 去掉 wei/wei 依赖，改为内置类 ([943064a](https://github.com/miaoxing/dev/commit/f89ae438152d2ad2164c1d7d20a9c0088ea1f1eb))
+
+
+### Features
+
+* 增加 babel-preset-miaoxing 和 jest-preset-miaoxing 依赖 ([10e6c6f](https://github.com/miaoxing/dev/commit/a013c113159be9c528644eb0f88908490bb4a6fc))
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from 0.1.3 to 0.1.4
 
 # [6.0.0](https://github.com/miaoxing/dev/compare/v5.3.2...v6.0.0) (2020-08-13)
 
