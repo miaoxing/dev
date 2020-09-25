@@ -1,3 +1,18 @@
+## [6.1.2](https://github.com/miaoxing/dev/compare/v6.1.1...v6.1.2) (2020-09-25)
+
+
+### Bug Fixes
+
+* 指定 jest-cli 版本，解决 "TypeError: (0 , _jestUtil(...).formatTime) is not a function" ([7c82cd4](https://github.com/miaoxing/dev/commit/7c82cd4cbcc97a42c49c3aafdc99bbef99837c4b))
+
+
+
+
+
+### Dependencies
+
+* **jest-preset-miaoxing:** upgrade from 0.2.0 to 0.2.1
+
 ## [6.1.1](https://github.com/miaoxing/dev/compare/v6.1.0...v6.1.1) (2020-08-17)
 
 
