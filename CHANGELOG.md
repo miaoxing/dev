@@ -1,3 +1,10 @@
+# [6.2.0](https://github.com/miaoxing/dev/compare/v6.1.2...v6.2.0) (2021-03-05)
+
+
+### Features
+
+* 支持 PHP 8 ([c22f20a](https://github.com/miaoxing/dev/commit/c22f20a18c9658228dc40cdd4627a9ac3b3b2670))
+
 ## [6.1.2](https://github.com/miaoxing/dev/compare/v6.1.1...v6.1.2) (2020-09-25)
 
 
