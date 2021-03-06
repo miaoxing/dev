@@ -2,16 +2,16 @@
 
 namespace Miaoxing\CodingStandards\PHPStan\Reflection;
 
-use PHPStan\Reflection\Php\PhpMethodReflection;
+use PHPStan\Reflection\MethodReflection;
 
 /**
  * Allow `Static call to instance method`
  */
-class ServiceMethodReflection implements \PHPStan\Reflection\MethodReflection
+class ServiceMethodReflection implements MethodReflection
 {
     protected $method;
 
-    public function __construct(PhpMethodReflection $method)
+    public function __construct(MethodReflection $method)
     {
         $this->method = $method;
     }
