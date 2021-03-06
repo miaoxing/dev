@@ -20,4 +20,4 @@ dir_arg=$(IFS=, ; echo "${exist_dirs[*]}")
 
 echo "Check in ${dir_arg}";
 
-vendor/bin/phpmd ${dir_arg} ansi ${config}
+vendor/bin/phpmd ${dir_arg} ansi ${config} "$@"
