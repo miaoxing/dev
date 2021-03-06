@@ -75,4 +75,6 @@ return PhpCsFixer\Config::create()
         'php_unit_strict' => false,
         'strict_comparison' => false,
         'native_function_invocation' => false,
+        // 可能导致 __unset 方法不能如期调用
+        'no_unset_on_property' => false,
     ]);
