@@ -22,7 +22,7 @@ class ServiceMethodExtension implements \PHPStan\Reflection\MethodsClassReflecti
 
     public function hasMethod(ClassReflection $classReflection, string $methodName): bool
     {
-        if (!$classReflection->isSubclassOf(Base::class)) {
+        if (!$classReflection->isSubclassOf(Base::class) && !$classReflection->isTrait()) {
             return false;
         }
 
