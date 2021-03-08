@@ -20,6 +20,11 @@ services:
             - phpstan.broker.methodsClassReflectionExtension
 
     -
+        class: Miaoxing\CodingStandards\PHPStan\ValidatorMethodsClassReflectionExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
+
+    -
         class: Miaoxing\CodingStandards\PHPStan\WeiPropertyExtension
         tags:
             - phpstan.broker.propertiesClassReflectionExtension
