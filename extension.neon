@@ -28,3 +28,10 @@ services:
         class: Miaoxing\CodingStandards\PHPStan\WeiPropertyExtension
         tags:
             - phpstan.broker.propertiesClassReflectionExtension
+
+    -
+        class: Miaoxing\CodingStandards\PHPStan\TraitMixinMethodsClassReflectionExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
+        arguments:
+              mixinExcludeClasses: %mixinExcludeClasses%
