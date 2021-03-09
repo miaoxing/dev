@@ -1,3 +1,20 @@
+# [6.3.0](https://github.com/miaoxing/dev/compare/v6.2.0...v6.3.0) (2021-03-09)
+
+
+### Bug Fixes
+
+* __construct 参数可能传入其他类，改为接口 ([f143a13](https://github.com/miaoxing/dev/commit/f143a1344fb992cbf88b9daef2676a314d68d505))
+* 排除 no_unset_on_property 规则 ([37365cf](https://github.com/miaoxing/dev/commit/37365cf23b7e14954723f67889abda8e94a48b1f))
+* 服务方法可能定义在 trait 上 ([4a31236](https://github.com/miaoxing/dev/commit/4a3123634850947b040523f24aeb153ca58bfcae))
+
+
+### Features
+
+* **phpstan:** 识别 trait 中使用 `[@mixin](https://github.com/mixin)` 的属性 ([ca08011](https://github.com/miaoxing/dev/commit/ca0801136a0761ae7a260f701c05a4a057c198b1))
+* **phpstan:** 识别 trait 中使用 `[@mixin](https://github.com/mixin)` 的方法 ([b556b47](https://github.com/miaoxing/dev/commit/b556b47003e8a409aaeabef9b998813d3b50bd43))
+* phpmd 脚本允许传入自定义参数 ([e701fcc](https://github.com/miaoxing/dev/commit/e701fcc3663ffbe822a7d657da9e5d4ad7130a6e))
+* 支持识别 `V::xxx()->xxx()` 调用 ([842dcfc](https://github.com/miaoxing/dev/commit/842dcfcf6cd1389d32a3a737813a621e1bac00a9))
+
 # [6.2.0](https://github.com/miaoxing/dev/compare/v6.1.2...v6.2.0) (2021-03-05)
 
 
