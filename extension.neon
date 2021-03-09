@@ -35,3 +35,10 @@ services:
             - phpstan.broker.methodsClassReflectionExtension
         arguments:
               mixinExcludeClasses: %mixinExcludeClasses%
+
+    -
+        class: Miaoxing\CodingStandards\PHPStan\TraitMixinPropertiesClassReflectionExtension
+        tags:
+          - phpstan.broker.propertiesClassReflectionExtension
+        arguments:
+          mixinExcludeClasses: %mixinExcludeClasses%

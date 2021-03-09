@@ -27,21 +27,10 @@ use PHPStan\Type\VerbosityLevel;
  */
 class TraitMixinMethodsClassReflectionExtension implements MethodsClassReflectionExtension, BrokerAwareExtension
 {
-    /**
-     * @var Broker
-     */
-    protected $broker;
+    use TraitMixinTrait;
 
     /** @var string[] */
     private $mixinExcludeClasses;
-
-    /**
-     * @param string[] $mixinExcludeClasses
-     */
-    public function __construct(array $mixinExcludeClasses)
-    {
-        $this->mixinExcludeClasses = $mixinExcludeClasses;
-    }
 
     public function hasMethod(ClassReflection $classReflection, string $methodName): bool
     {
@@ -93,37 +82,5 @@ class TraitMixinMethodsClassReflectionExtension implements MethodsClassReflectio
             return $method;
         }
         return null;
-    }
-
-    private function getTraits(ClassReflection $classReflection)
-    {
-        $traits = $this->getTraitClassesDeep($classReflection->getName());
-        return \array_map(function (string $class): ClassReflection {
-            return $this->broker->getClass($class);
-        }, $traits);
-    }
-
-    private function getTraitClassesDeep(string $class)
-    {
-        $traits = class_uses($class);
-
-        // Get traits of all parent traits
-        $traitsToSearch = $traits;
-        while (!empty($traitsToSearch)) {
-            $newTraits = class_uses(array_pop($traitsToSearch), $autoload);
-            $traits = array_merge($newTraits, $traits);
-            $traitsToSearch = array_merge($newTraits, $traitsToSearch);
-        }
-
-        foreach ($traits as $trait => $same) {
-            $traits = array_merge(class_uses($trait, $autoload), $traits);
-        }
-
-        return array_unique($traits);
-    }
-
-    public function setBroker(Broker $broker): void
-    {
-        $this->broker = $broker;
     }
 }
