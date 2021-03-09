@@ -1,3 +1,10 @@
+## [6.3.1](https://github.com/miaoxing/dev/compare/v6.3.0...v6.3.1) (2021-03-09)
+
+
+### Bug Fixes
+
+* **phpstan:** 解决 Static call to instance method Wei\IsXxx::xxx(). ([094ace6](https://github.com/miaoxing/dev/commit/094ace63b0c4e99e88ec69c5b31498f90675f26c))
+
 # [6.3.0](https://github.com/miaoxing/dev/compare/v6.2.0...v6.3.0) (2021-03-09)
 
 
