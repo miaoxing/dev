@@ -66,7 +66,7 @@ class ValidatorMethodsClassReflectionExtension implements MethodsClassReflection
             $returnType
         );
 
-        return new WeiMethodReflection($methodReflection, $methodName, $variants);
+        return new WeiMethodReflection($methodReflection, $methodName, $variants, true);
     }
 
     public function setBroker(Broker $broker): void
