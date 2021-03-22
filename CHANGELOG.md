@@ -1,3 +1,14 @@
+## [6.3.4](https://github.com/miaoxing/dev/compare/v6.3.3...v6.3.4) (2021-03-22)
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.1.5` to `0.2.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.2` to `0.2.3`
+
 ## [6.3.3](https://github.com/miaoxing/dev/compare/v6.3.2...v6.3.3) (2021-03-12)
 
 
