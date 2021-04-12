@@ -18,7 +18,13 @@
   "bin": {
     "miaoxing-eslint": "bin/miaoxing-eslint",
     "miaoxing-jest": "bin/miaoxing-jest",
-    "miaoxing-stylelint": "bin/miaoxing-stylelint"
+    "miaoxing-stylelint": "bin/miaoxing-stylelint",
+    "miaoxing-php-cs-fixer": "bin/miaoxing-php-cs-fixer",
+    "miaoxing-phpcs": "bin/miaoxing-phpcs",
+    "miaoxing-phpmd": "bin/miaoxing-phpmd",
+    "miaoxing-phpmnd": "bin/miaoxing-phpmnd",
+    "miaoxing-phpstan": "bin/miaoxing-phpstan",
+    "miaoxing-phpunit": "bin/miaoxing-phpunit"
   },
   "scripts": {
     "miaoxing-eslint": "bin/miaoxing-eslint",
