@@ -2,22 +2,33 @@
 
 set -e
 
-if [[ -e "phpmd.xml" ]]; then
-  config="phpmd.xml";
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+  defaultConfig="../../packages/miaoxing-dev/phpmd-for-plugin.xml"
 else
-  config="vendor/miaoxing/dev/phpmd.xml";
+  vendorDir="vendor"
+  defaultConfig="vendor/miaoxing/dev/phpmd.xml"
+fi
+
+if [[ -e "phpmd.xml" ]]; then
+  config="phpmd.xml"
+else
+  config=${defaultConfig}
 fi
 
 exist_dirs=()
 # resources dir is deprecated，will remove in v4
-dirs=('config' 'src' 'stubs' 'tests' 'views' 'resources');
-for dir in ${dirs[@]} ; do
+dirs=('config' 'src' 'stubs' 'tests' 'views' 'resources')
+for dir in ${dirs[@]}; do
   if [[ -d ${dir} ]]; then
-    exist_dirs+=(${dir});
+    exist_dirs+=(${dir})
   fi
 done
-dir_arg=$(IFS=, ; echo "${exist_dirs[*]}")
+dir_arg=$(
+  IFS=,
+  echo "${exist_dirs[*]}"
+)
 
-echo "Check in ${dir_arg}";
+echo "Check in ${dir_arg}"
 
-vendor/bin/phpmd ${dir_arg} ansi ${config} "$@"
+${vendorDir}/bin/phpmd ${dir_arg} ansi ${config} "$@"
