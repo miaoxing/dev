@@ -1,5 +1,5 @@
 includes:
-	- %currentWorkingDirectory%/vendor/phpstan/phpstan/conf/bleedingEdge.neon
+	- %rootDir%/conf/bleedingEdge.neon
 
 parameters:
     reportUnmatchedIgnoredErrors: false

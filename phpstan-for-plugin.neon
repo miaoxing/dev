@@ -1,0 +1,12 @@
+parameters:
+    level: 1
+
+    paths:
+        - %currentWorkingDirectory%/src
+        - %currentWorkingDirectory%/pages
+        - %currentWorkingDirectory%/tests
+
+    scanFiles:
+        # 引入 *Mixin 类
+        - %currentWorkingDirectory%/docs/auto-completion.php
+        - ../../packages/wei/docs/auto-completion.php

@@ -2,10 +2,18 @@
 
 set -e
 
-if [[ -e "phpstan.neon" ]]; then
-  config="phpstan.neon";
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+  devDir="../../packages/miaoxing-dev"
 else
-  config="vendor/miaoxing/dev/phpstan.neon";
+  vendorDir="vendor"
+  devDir="vendor/miaoxing/dev"
 fi
 
-vendor/bin/phpstan analyse --memory-limit=1G --debug -c ${config}
+if [[ -e "phpstan.neon" ]]; then
+  config="phpstan.neon"
+else
+  config="${devDir}/phpstan-for-plugin.neon"
+fi
+
+${vendorDir}/bin/phpstan analyse --memory-limit=1G --debug -c ${config}
