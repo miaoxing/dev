@@ -2,17 +2,23 @@
 
 set -e
 
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  devDir="../../packages/miaoxing-dev"
+else
+  devDir="node_modules/@miaoxing/dev"
+fi
+
 # 如果没有忽略文件，拷贝默认配置
 copied_ignore_file=false
 if [[ ! -e ".eslintignore" ]]; then
-  cp "node_modules/@miaoxing/dev/.eslintignore" ".eslintignore";
+  cp "${devDir}/.eslintignore" ".eslintignore";
   copied_ignore_file=true
 fi
 
 if [[ -e ".eslintrc.json" ]]; then
   config=".eslintrc.json";
 else
-  config="node_modules/@miaoxing/dev/.eslintrc.json";
+  config="${devDir}/.eslintrc.json";
 fi
 
 if [[ $1 = 'fix' ]]; then
