@@ -2,17 +2,23 @@
 
 set -e
 
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  devDir="../../packages/miaoxing-dev"
+else
+  devDir="node_modules/@miaoxing/dev"
+fi
+
 # 如果没有忽略文件，拷贝默认配置
 copied_ignore_file=false
 if [[ ! -e ".stylelintignore" ]]; then
-  cp "node_modules/@miaoxing/dev/.stylelintignore" ".stylelintignore";
+  cp "${devDir}/.stylelintignore" ".stylelintignore";
   copied_ignore_file=true
 fi
 
 if [[ -e ".stylelintrc.json" ]]; then
  config=".stylelintrc.json";
 else
- config="node_modules/@miaoxing/dev/.stylelintrc.json";
+ config="${devDir}/.stylelintrc.json";
 fi
 
 if [[ $1 = 'fix' ]]; then
