@@ -2,10 +2,25 @@
 
 set -e
 
+realpath() {
+  [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+  devDir="../../packages/miaoxing-dev"
+else
+  vendorDir="vendor"
+  devDir="vendor/miaoxing/dev"
+fi
+
+vendorDir=$(realpath ${vendorDir});
+devDir=$(realpath ${devDir});
+
 if [[ -e ".php_cs" ]]; then
   config=".php_cs";
 else
-  config="vendor/miaoxing/dev/.php_cs";
+  config="${devDir}/.php_cs";
 fi
 
 # Run `miaoxing-php-cs-fixer fix` to execute fix
@@ -15,4 +30,4 @@ else
     dry_run="--dry-run"
 fi
 
-vendor/bin/php-cs-fixer fix --config=${config} -v --allow-risky yes ${dry_run} --using-cache=no
+${vendorDir}/bin/php-cs-fixer fix --config=${config} -v --allow-risky yes ${dry_run} --using-cache=no
