@@ -3,6 +3,7 @@ parameters:
 
     paths:
         - %currentWorkingDirectory%/src
+        - %currentWorkingDirectory%/pages
         - %currentWorkingDirectory%/tests
 
     scanFiles:
