@@ -2,4 +2,10 @@
 
 set -e
 
-vendor/bin/phpmnd src tests --ignore-numbers=-1,0,1,2 --non-zero-exit-on-violation --progress
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+else
+  vendorDir="vendor"
+fi
+
+${vendorDir}/bin/phpmnd src tests --ignore-numbers=-1,0,1,2 --non-zero-exit-on-violation --progress
