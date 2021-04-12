@@ -2,5 +2,13 @@
 
 set -e
 
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+  bootstrap="--bootstrap ../plugin/tests/bootstrap.php"
+else
+  vendorDir="vendor"
+  bootstrap=""
+fi
+
 # TODO create-tests, check-coverage, check-migration
-vendor/bin/phpunit --verbose --stderr --coverage-clover build/logs/clover.xml --coverage-text
+${vendorDir}/bin/phpunit --verbose --stderr --coverage-clover build/logs/clover.xml --coverage-text ${bootstrap}
