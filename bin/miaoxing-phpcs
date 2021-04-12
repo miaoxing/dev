@@ -2,20 +2,35 @@
 
 set -e
 
-vendor/bin/phpcs --config-set installed_paths vendor/miaoxing/dev,vendor/wp-coding-standards/wpcs
-vendor/bin/phpcs -i
+realpath() {
+  [[ $1 == /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
+if [[ -d "../../packages/miaoxing-dev" ]]; then
+  vendorDir="../../vendor"
+  devDir="../../packages/miaoxing-dev"
+else
+  vendorDir="vendor"
+  devDir="vendor/miaoxing/dev"
+fi
+
+vendorDir=$(realpath ${vendorDir})
+devDir=$(realpath ${devDir})
+
+${vendorDir}/bin/phpcs --config-set installed_paths ${devDir},${vendorDir}/wp-coding-standards/wpcs
+${vendorDir}/bin/phpcs -i
 
 if [[ -e "phpcs.xml.dist" ]]; then
-  standard="phpcs.xml.dist";
+  standard="phpcs.xml.dist"
 else
-  standard="vendor/miaoxing/dev/phpcs.xml.dist";
+  standard="${devDir}/phpcs.xml.dist"
 fi
 
 # Run `miaoxing-phpcs fix` to execute phpcbf
-if [[ $1 = 'fix' ]]; then
-    cmd="phpcbf"
+if [[ $1 == 'fix' ]]; then
+  cmd="phpcbf"
 else
-    cmd="phpcs"
+  cmd="phpcs"
 fi
 
-vendor/bin/${cmd} --standard=${standard} .
+${vendorDir}/bin/${cmd} --standard=${standard} .
