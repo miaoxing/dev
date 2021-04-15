@@ -70,6 +70,8 @@ return PhpCsFixer\Config::create()
         'semicolon_after_instruction' => false,
         // 参数过长需换行
         'single_line_throw' => false,
+        // 视图中可使用短标签输出
+        'echo_tag_syntax' => false,
 
         // Risky
         'php_unit_strict' => false,
