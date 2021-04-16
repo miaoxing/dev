@@ -3,12 +3,12 @@
 namespace Miaoxing\CodingStandards\PHPStan;
 
 use PHPStan\Analyser\OutOfClassScope;
+use PHPStan\Reflection\BrokerAwareExtension;
 use PHPStan\Reflection\ClassReflection;
 use PHPStan\Reflection\PropertiesClassReflectionExtension;
 use PHPStan\Reflection\PropertyReflection;
 use PHPStan\ShouldNotHappenException;
 use PHPStan\Type\TypeUtils;
-use PHPStan\Reflection\BrokerAwareExtension;
 
 /**
  * Allow using `@mixin` with traits
@@ -21,13 +21,13 @@ class TraitMixinPropertiesClassReflectionExtension implements PropertiesClassRef
 
     public function hasProperty(ClassReflection $classReflection, string $propertyName): bool
     {
-        return $this->findProperty($classReflection, $propertyName) !== null;
+        return null !== $this->findProperty($classReflection, $propertyName);
     }
 
     public function getProperty(ClassReflection $classReflection, string $propertyName): PropertyReflection
     {
         $property = $this->findProperty($classReflection, $propertyName);
-        if ($property === null) {
+        if (null === $property) {
             throw new ShouldNotHappenException();
         }
         return $property;
@@ -53,7 +53,7 @@ class TraitMixinPropertiesClassReflectionExtension implements PropertiesClassRef
 
         foreach ($classReflection->getParents() as $parentClass) {
             $property = $this->findProperty($parentClass, $propertyName);
-            if ($property === null) {
+            if (null === $property) {
                 continue;
             }
             return $property;

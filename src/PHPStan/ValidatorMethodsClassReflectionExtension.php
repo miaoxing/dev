@@ -10,11 +10,7 @@ use PHPStan\Reflection\ClassReflection;
 use PHPStan\Reflection\FunctionVariant;
 use PHPStan\Reflection\MethodReflection;
 use PHPStan\Reflection\MethodsClassReflectionExtension;
-use PHPStan\Reflection\ParametersAcceptorSelector;
-use PHPStan\Type\ArrayType;
 use PHPStan\Type\ObjectType;
-use PHPStan\Type\StaticType;
-use PHPStan\Type\UnionType;
 use Wei\V;
 
 /**
