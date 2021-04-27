@@ -1,3 +1,33 @@
+# [6.4.0](https://github.com/miaoxing/dev/compare/v6.3.4...v6.4.0) (2021-04-27)
+
+
+### Bug Fixes
+
+* **php-cs-fixer:** 禁用 `echo_tag_syntax` 规则，视图中可使用短标签输出 ([dfe745f](https://github.com/miaoxing/dev/commit/dfe745f0047cd1c12ba4b626989d199030632d91))
+
+
+### Features
+
+* 支持通过 yarn 在插件目录下直接调用检查命令 ([c1ce61d](https://github.com/miaoxing/dev/commit/c1ce61db3c7d1f593af57c25eb4faba6047a91f0))
+* 更新 phpcs 到 `^3.6` ([7bed74c](https://github.com/miaoxing/dev/commit/7bed74c262b790356a703827f3f5563950377967))
+* **eslint:** 支持直接在插件目录下调用 `miaoxing-eslint` ([8c0ce8d](https://github.com/miaoxing/dev/commit/8c0ce8de306263f2588161545993b0bab571a024))
+* **php-cs-fixer:** 支持直接在插件目录下调用 `miaoxing-php-cs-fixer` ([9900e78](https://github.com/miaoxing/dev/commit/9900e78719c64a03ef0023625fbbcf0c52231042))
+* **phpcs:** 支持直接在插件目录下调用 `miaoxing-phpcs` ([7155d7f](https://github.com/miaoxing/dev/commit/7155d7f50e981ed29f96aaa1515285d7688002e2))
+* **phpmd:** 支持直接在插件目录下调用 `miaoxing-phpmd` ([c243f87](https://github.com/miaoxing/dev/commit/c243f870cf31de7afba3098aca177e39939a55f6))
+* **phpmnd:** 支持直接在插件目录下调用 `miaoxing-phpmnd` ([815076d](https://github.com/miaoxing/dev/commit/815076d2c300c872090ff5847fdad92899944e83))
+* **phpstan:** 增加 pages 目录检查 ([3a4cd26](https://github.com/miaoxing/dev/commit/3a4cd269cb39d0bec5ed570ed1619e289e34ccdb))
+* **phpstan:** 支持直接在插件目录下调用 `miaoxing-phpstan` ([be4aebc](https://github.com/miaoxing/dev/commit/be4aebcf62d02b5d226c550e6b5efe34fc619634))
+* **phpunit:** 支持直接在插件目录下调用 `miaoxing-phpunit` ([4715d13](https://github.com/miaoxing/dev/commit/4715d13018fd5a12baa7930bde2909169e6c2192))
+* **stylelint:** 支持直接在插件目录下调用 `miaoxing-stylelint` ([e8d2094](https://github.com/miaoxing/dev/commit/e8d20941c47e154bcc8bde4b011bef61dff8f0f9))
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.2.0` to `0.3.0`
+
 ## [6.3.4](https://github.com/miaoxing/dev/compare/v6.3.3...v6.3.4) (2021-03-22)
 
 
