@@ -5,15 +5,17 @@ set -e
 if [[ -d "../../packages/miaoxing-dev" ]]; then
   vendorDir="../../vendor"
   devDir="../../packages/miaoxing-dev"
+  defaultConfig="${devDir}/phpstan-for-plugin.neon"
 else
   vendorDir="vendor"
   devDir="vendor/miaoxing/dev"
+  defaultConfig="${devDir}/phpstan.neon"
 fi
 
 if [[ -e "phpstan.neon" ]]; then
   config="phpstan.neon"
 else
-  config="${devDir}/phpstan-for-plugin.neon"
+  config=${defaultConfig}
 fi
 
 ${vendorDir}/bin/phpstan analyse --memory-limit=1G --debug -c ${config}
