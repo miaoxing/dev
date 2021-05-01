@@ -43,10 +43,10 @@
     "jest": "^26.0.1",
     "jest-cli": "^26.0.1",
     "jest-preset-miaoxing": "^0.2.3",
-    "stylelint": "^13.6.0",
+    "stylelint": "^13.13.1",
     "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.19.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
