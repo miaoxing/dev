@@ -35,6 +35,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "babel-preset-miaoxing": "^0.3.0",
@@ -52,5 +55,8 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.2.5"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing"
   }
 }
