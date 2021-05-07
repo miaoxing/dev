@@ -18,4 +18,18 @@ else
   config=${defaultConfig}
 fi
 
-${vendorDir}/bin/phpstan analyse --memory-limit=1G --debug -c ${config}
+exist_dirs=()
+dirs=('src' 'tests' 'pages')
+for dir in ${dirs[@]}; do
+  if [[ -d ${dir} ]]; then
+    exist_dirs+=(${dir})
+  fi
+done
+dir_arg=$(
+  IFS=" "
+  echo "${exist_dirs[*]}"
+)
+
+echo "Check in: ${dir_arg}"
+
+${vendorDir}/bin/phpstan analyse --memory-limit=1G --debug -c ${config} ${dir_arg}
