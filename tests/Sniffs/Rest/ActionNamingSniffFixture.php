@@ -1,8 +1,8 @@
 <?php
 
-namespace MiaoxingTest\Fixture\Sniffs\Rest;
+namespace MiaoxingTest\Sniffs\Rest;
 
-class ActionNamingSniff
+class ActionNamingSniffFixture
 {
     public function listsAction()
     {

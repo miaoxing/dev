@@ -1,6 +1,7 @@
 {
   "name": "miaoxing/dev",
   "type": "phpstan-extension",
+  "description": "Miaoxing develop scripts",
   "keywords": [
     "miaoxing"
   ],
@@ -29,6 +30,11 @@
     "psr-4": {
       "Miaoxing\\CodingStandards\\": "src",
       "Wei\\": "src\\Wei"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\Sniffs\\": "tests"
     }
   },
   "extra": {

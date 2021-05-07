@@ -13,5 +13,5 @@
   <exclude-pattern type="relative">public/libs/*</exclude-pattern>
 
   <!-- 暂用于 miaoxing/dev -->
-  <exclude-pattern type="relative">tests/Fixture/Sniffs/*</exclude-pattern>
+  <exclude-pattern type="relative">tests/Sniffs/*/*Fixture.php</exclude-pattern>
 </ruleset>
