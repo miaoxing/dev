@@ -43,5 +43,11 @@
         "extension.neon"
       ]
     }
+  },
+  "scripts": {
+    "phpcs:config": [
+      "./vendor/bin/phpcs --config-set installed_paths $(pwd),$(pwd)/vendor/wp-coding-standards/wpcs",
+      "./vendor/bin/phpcs -i"
+    ]
   }
 }
