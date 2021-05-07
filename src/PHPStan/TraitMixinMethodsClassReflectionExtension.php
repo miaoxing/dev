@@ -9,6 +9,7 @@ use PHPStan\Reflection\MethodReflection;
 use PHPStan\Reflection\MethodsClassReflectionExtension;
 use PHPStan\Reflection\Mixin\MixinMethodReflection;
 use PHPStan\ShouldNotHappenException;
+use PHPStan\Type\TypeUtils;
 
 /**
  * Allow using `@mixin` with traits
@@ -44,11 +45,7 @@ class TraitMixinMethodsClassReflectionExtension implements MethodsClassReflectio
             $mixinTypes = $trait->getResolvedMixinTypes();
 
             foreach ($mixinTypes as $type) {
-                if (\count(\array_intersect(
-                    \PHPStan\Type\TypeUtils::getDirectClassNames($type),
-                    $this->mixinExcludeClasses
-                )) > 0
-                ) {
+                if (\count(\array_intersect(TypeUtils::getDirectClassNames($type), $this->mixinExcludeClasses)) > 0) {
                     continue;
                 }
 
