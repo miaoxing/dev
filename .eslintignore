@@ -1,7 +1,9 @@
-dist/**
 node_modules/**
+vendor/**
+
 public/comps/**
 public/libs/**
 public/dist/**
-vendor/**
+
+dist/**
 plugins/**

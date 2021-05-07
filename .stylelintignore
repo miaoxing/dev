@@ -1,7 +1,9 @@
 # https://stylelint.io/user-guide/configure#ignorefiles
 node_modules/
 vendor/
-public/libs
-public/dist
+
+public/libs/
+public/dist/
+
 plugins/
 dist/
