@@ -41,7 +41,8 @@ class WeiMethodExtension implements \PHPStan\Reflection\MethodsClassReflectionEx
     {
         return Wei::class === $classReflection->getName()
             && !method_exists(Wei::class, $methodName)
-            && \wei()->has($methodName);
+            && \wei()->has($methodName)
+            && method_exists(\wei()->getClass($methodName), '__invoke');
     }
 
     public function getMethod(ClassReflection $classReflection, string $methodName): MethodReflection
