@@ -5,13 +5,6 @@
   <rule ref="Miaoxing">
   </rule>
 
-  <exclude-pattern type="relative">docs/*</exclude-pattern>
-  <exclude-pattern type="relative">plugins/*</exclude-pattern>
-  <exclude-pattern type="relative">storage/*</exclude-pattern>
-
-  <!-- 前端类库带有 PHP 文件，如 ueditor -->
-  <exclude-pattern type="relative">public/libs/*</exclude-pattern>
-
   <!-- 暂用于 miaoxing/dev -->
   <exclude-pattern type="relative">tests/Sniffs/*/*Fixture.php</exclude-pattern>
 </ruleset>
