@@ -1,6 +1,6 @@
 {
   "name": "miaoxing/dev",
-  "type": "phpstan-extension",
+  "type": "library",
   "description": "Miaoxing develop scripts",
   "keywords": [
     "miaoxing"
@@ -20,28 +20,12 @@
     "mi-schi/phpmd-extension": "^4.3",
     "friendsofphp/php-cs-fixer": "^2.18",
     "phpunit/phpunit": "^8 || ^9",
-    "phpstan/phpstan": "^0.12.30",
-    "phpstan/phpstan-phpunit": "^0.12.11",
-    "phpstan/extension-installer": "^1.0",
     "wp-coding-standards/wpcs": "^2.3",
     "povils/phpmnd": "^2.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Miaoxing\\CodingStandards\\": "src",
-      "Wei\\": "src\\Wei"
-    }
   },
   "autoload-dev": {
     "psr-4": {
       "MiaoxingTest\\Sniffs\\": "tests"
-    }
-  },
-  "extra": {
-    "phpstan": {
-      "includes": [
-        "extension.neon"
-      ]
     }
   },
   "scripts": {
