@@ -1,0 +1,10 @@
+parameters:
+    level: 0
+
+    paths:
+      - src
+      - tests
+      - Miaoxing
+
+    bootstrapFiles:
+      - vendor/squizlabs/php_codesniffer/autoload.php

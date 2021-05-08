@@ -34,8 +34,8 @@ class ValidatorMethodsClassReflectionExtension implements MethodsClassReflection
 
     public function hasMethod(ClassReflection $classReflection, string $methodName): bool
     {
-        return V::class === $classReflection->getName()
-            && !method_exists(V::class, $methodName)
+        return 'Wei\V' === $classReflection->getName()
+            && !method_exists('Wei\V', $methodName)
             && \wei()->has('is' . ucfirst($methodName));
     }
 

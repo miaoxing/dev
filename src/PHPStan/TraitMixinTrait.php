@@ -38,13 +38,13 @@ trait TraitMixinTrait
         // Get traits of all parent traits
         $traitsToSearch = $traits;
         while (!empty($traitsToSearch)) {
-            $newTraits = class_uses(array_pop($traitsToSearch), $autoload);
+            $newTraits = class_uses(array_pop($traitsToSearch));
             $traits = array_merge($newTraits, $traits);
             $traitsToSearch = array_merge($newTraits, $traitsToSearch);
         }
 
         foreach ($traits as $trait => $same) {
-            $traits = array_merge(class_uses($trait, $autoload), $traits);
+            $traits = array_merge(class_uses($trait), $traits);
         }
 
         return array_unique($traits);

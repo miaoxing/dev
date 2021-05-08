@@ -232,7 +232,7 @@ jobs:
           composer install --no-progress --prefer-dist --optimize-autoloader
 
       - name: Run
-        run: ./bin/miaoxing-phpstan
+        run: vendor/bin/phpstan analyse --memory-limit=1G --debug -c phpstan-for-self.neon
 
   phpcs:
     runs-on: ${{ matrix.operating-system }}

@@ -27,6 +27,11 @@ class WeiMethodReflection implements \PHPStan\Reflection\MethodReflection
      */
     protected $variants;
 
+    /**
+     * @var bool|null
+     */
+    protected $static;
+
     public function __construct(MethodReflection $methodReflection, string $methodName, array $variants, $static = null)
     {
         $this->methodReflection = $methodReflection;
@@ -42,7 +47,7 @@ class WeiMethodReflection implements \PHPStan\Reflection\MethodReflection
 
     public function isStatic(): bool
     {
-        return isset($this->static) ? $this->static : $this->methodReflection->isStatic();
+        return $this->static ?? $this->methodReflection->isStatic();
     }
 
     public function isPrivate(): bool
