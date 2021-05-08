@@ -72,6 +72,8 @@ return PhpCsFixer\Config::create()
         'single_line_throw' => false,
         // 视图中可使用短标签输出
         'echo_tag_syntax' => false,
+        // 与 phpcs 的 PSR12.Classes.AnonClassDeclaration.SpaceAfterKeyword 冲突
+        'class_definition' => false,
 
         // Risky
         'php_unit_strict' => false,
