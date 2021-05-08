@@ -74,15 +74,11 @@
     <message>The %s super global must not be accessed directly; use $req->getXxx instead</message>
   </rule>
 
-  <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
-
   <rule ref="PEAR.Formatting.MultiLineAssignment"/>
 
   <rule ref="PSR1"/>
 
-  <rule ref="PSR2">
-    <exclude name="PSR2.ControlStructures.SwitchDeclaration.TerminatingComment"/>
-  </rule>
+  <rule ref="PSR12"/>
 
   <rule ref="Squiz.Commenting.BlockComment">
     <exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
