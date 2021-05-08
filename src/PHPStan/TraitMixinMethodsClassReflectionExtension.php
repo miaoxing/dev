@@ -55,7 +55,8 @@ class TraitMixinMethodsClassReflectionExtension implements MethodsClassReflectio
 
                 $method = $type->getMethod($methodName, new OutOfClassScope());
                 $static = $method->isStatic();
-                if (!$static
+                if (
+                    !$static
                     && $classReflection->hasNativeMethod('__callStatic')
                     && !$classReflection->hasNativeMethod('__call')
                 ) {
