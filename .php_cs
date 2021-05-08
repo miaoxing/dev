@@ -23,7 +23,7 @@ return PhpCsFixer\Config::create()
             ->in($dirs)
     )
     ->setRules([
-        '@PSR2' => true,
+        '@PSR12' => true,
         '@PhpCsFixer' => true,
         '@PhpCsFixer:risky' => true,
         '@Symfony' => true,
