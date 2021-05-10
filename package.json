@@ -59,6 +59,7 @@
     "husky": "^4.2.5"
   },
   "ciDependencies": {
-    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing"
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing"
   }
 }
