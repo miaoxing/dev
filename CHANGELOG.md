@@ -1,3 +1,48 @@
+# [7.0.0](https://github.com/miaoxing/dev/compare/v6.4.0...v7.0.0) (2021-05-11)
+
+
+### Bug Fixes
+
+* **php-cs-fixer:** 禁用 `class_definition` 规则 ([96f2b91](https://github.com/miaoxing/dev/commit/96f2b918f3a28cdc9b7f7d38d808bed96cb41e94))
+* **phpstan:** 解决服务类不存在 `__invoke` 方法时出错 ([cbb9602](https://github.com/miaoxing/dev/commit/cbb9602de178a2db3218cdfbd745f9b860f06e30))
+* **stylelint:** 忽略 `color-hex-length` 规则 ([38f2d32](https://github.com/miaoxing/dev/commit/38f2d324c35efb151af5bfc19c7acc8ce0ee8e96))
+* **stylelint:** 忽略生成的文件 ([ff0b98d](https://github.com/miaoxing/dev/commit/ff0b98d91ed72a639de2d3b99e0f9db969edb6ef))
+* 子仓库运行时，配置文件路径错误 ([2ca49bb](https://github.com/miaoxing/dev/commit/2ca49bb607a4177978b9df6c67a6adf1cbcefa91))
+
+
+### Code Refactoring
+
+* PHPStan 功能移到到 `miaoxing/phpstan-miaoxing` 中 ([04db7f6](https://github.com/miaoxing/dev/commit/04db7f6ab61fb9649294f76cc1b36180df9d5977))
+
+
+### Features
+
+* **eslint:** eslint 支持 typescript ([8732a64](https://github.com/miaoxing/dev/commit/8732a643311c2d1a33d27acf7216d37f2854198b))
+* **php-cs-fixer:** 使用 `PSR12` 替代 `PSR2` ([0b57e4d](https://github.com/miaoxing/dev/commit/0b57e4d12dbf9b046b03138bd3d757ef3838783a))
+* **phpcs:** 忽略 `public/libs/*` 目录，用于前端类库带有 PHP 文件，如 ueditor ([fc078e1](https://github.com/miaoxing/dev/commit/fc078e1edea8882c09ce2bde24bbd86eae8ae39c))
+* **phpcs:** 使用 `PSR12` 替代 `PSR2` ([f335f8b](https://github.com/miaoxing/dev/commit/f335f8b8ec021cc642f81b8c332f9bc1286b0a61))
+* **phpmnd:** 增加 pages 目录 ([10b46eb](https://github.com/miaoxing/dev/commit/10b46eb7679fc34f53bc92de92c0105c48e19ce3))
+* **phpstan:** 检查时忽略不存在的目录 ([0c04855](https://github.com/miaoxing/dev/commit/0c04855e4179901e07b8c1cbe82a3790ce2a0cc6))
+* **stylelint:** 更新 `stylelint` 和相关包的版本 ([dc77d0a](https://github.com/miaoxing/dev/commit/dc77d0a35f9a489d386a9686f553a699d8edfddf))
+* **stylelint:** 忽略 `public/libs` 和 `public/dist` 的文件 ([53226c2](https://github.com/miaoxing/dev/commit/53226c2e2e24ae4e3aa2d0e8b5a406e026b6f742))
+
+
+### BREAKING CHANGES
+
+* PHPStan 功能移到到 `miaoxing/phpstan-miaoxing` 中
+* **php-cs-fixer:** `php-cs-fixer` 使用 `PSR12` 替代 `PSR2`
+* **phpcs:** 使用 `PSR12` 替代 `PSR2`
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.3.0` to `0.4.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.3` to `0.2.4`
+* **@miaoxing/phpstan-miaoxing:** upgrade to `0.1.0`
+
 # [6.4.0](https://github.com/miaoxing/dev/compare/v6.3.4...v6.4.0) (2021-04-27)
 
 
