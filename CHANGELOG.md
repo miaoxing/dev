@@ -1,3 +1,13 @@
+## [7.0.1](https://github.com/miaoxing/dev/compare/v7.0.0...v7.0.1) (2021-05-12)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/phpstan-miaoxing:** upgrade from `0.1.0` to `0.1.1`
+
 # [7.0.0](https://github.com/miaoxing/dev/compare/v6.4.0...v7.0.0) (2021-05-11)
 
 
