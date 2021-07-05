@@ -55,7 +55,10 @@
       {
         "ignoreRestSiblings": true
       }
-    ]
+    ],
+    // React 17 无需引入 React
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
   "overrides": [
     {
