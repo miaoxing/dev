@@ -4,6 +4,7 @@
     "stylelint-config-recommended-scss"
   ],
   "rules": {
-    "color-hex-length": null
+    "color-hex-length": null,
+    "unit-case": null
   }
 }
