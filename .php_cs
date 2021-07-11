@@ -74,6 +74,8 @@ return PhpCsFixer\Config::create()
         'echo_tag_syntax' => false,
         // 与 phpcs 的 PSR12.Classes.AnonClassDeclaration.SpaceAfterKeyword 冲突
         'class_definition' => false,
+        // Class\n::method([\n"key" => "value"\n])\n->method2() 缩进不正确
+        'method_chaining_indentation' => false,
 
         // Risky
         'php_unit_strict' => false,
