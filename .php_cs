@@ -17,7 +17,7 @@ foreach ($phpDirs as $dir) {
     }
 }
 
-return PhpCsFixer\Config::create()
+return (new PhpCsFixer\Config())
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in($dirs)
