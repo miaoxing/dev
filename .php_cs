@@ -64,8 +64,6 @@ return PhpCsFixer\Config::create()
         'php_unit_internal_class' => false,
         'php_unit_test_class_requires_covers' => false,
         'php_unit_test_case_static_method_calls' => false,
-        // 视图变量中应使用<?=
-        'no_short_echo_tag' => false,
         // 视图变量中允许没有;
         'semicolon_after_instruction' => false,
         // 参数过长需换行
