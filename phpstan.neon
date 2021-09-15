@@ -5,3 +5,6 @@ parameters:
         # 引入 *Mixin 类
         - %currentWorkingDirectory%/docs/auto-completion.php
         - %currentWorkingDirectory%/vendor/wei/wei/docs/auto-completion.php
+
+    ignoreErrors:
+        -   "#^Unsafe usage of new static\\(\\)\\.$#"
