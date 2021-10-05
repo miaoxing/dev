@@ -105,6 +105,7 @@ jobs:
   jest:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         node-version: [ 10, 12, 14, 16 ]
     steps:
