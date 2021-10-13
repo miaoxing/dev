@@ -2,16 +2,12 @@
 
 $cwd = getcwd();
 
-$phpDirs = [
-    'config',
-    'src',
-    'stubs',
-    'tests',
-    'views',
-    'resources' // deprecated，will remove in v4
+$ignoreDirs = [
+    'vendor',
+    'node_modules',
 ];
 $dirs = [];
-foreach ($phpDirs as $dir) {
+foreach ($ignoreDirs as $dir) {
     if (is_dir($cwd . '/' . $dir)) {
         $dirs[] = $cwd . '/' . $dir;
     }
@@ -20,7 +16,8 @@ foreach ($phpDirs as $dir) {
 return (new PhpCsFixer\Config())
     ->setFinder(
         PhpCsFixer\Finder::create()
-            ->in($dirs)
+            ->in('.')
+            ->notPath($dirs)
     )
     ->setRules([
         '@PSR12' => true,
