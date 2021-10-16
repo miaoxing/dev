@@ -5,6 +5,7 @@ $cwd = getcwd();
 $ignoreDirs = [
     'vendor',
     'node_modules',
+    'plugins',
 ];
 $dirs = [];
 foreach ($ignoreDirs as $dir) {
