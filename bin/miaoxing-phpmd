@@ -18,7 +18,7 @@ fi
 
 exist_dirs=()
 # resources dir is deprecated，will remove in v4
-dirs=('config' 'src' 'stubs' 'tests' 'views' 'resources')
+dirs=('config' 'src' 'stubs' 'tests' 'views' 'resources' 'pages')
 for dir in ${dirs[@]}; do
   if [[ -d ${dir} ]]; then
     exist_dirs+=(${dir})
