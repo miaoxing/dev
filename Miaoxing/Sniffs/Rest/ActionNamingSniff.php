@@ -2,8 +2,8 @@
 
 namespace Miaoxing\Sniffs\Rest;
 
-use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
+use PHP_CodeSniffer\Sniffs\Sniff;
 
 class ActionNamingSniff implements Sniff
 {
@@ -19,23 +19,23 @@ class ActionNamingSniff implements Sniff
     ];
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function register()
     {
-        return [T_FUNCTION];
+        return [\T_FUNCTION];
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function process(File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
-        $functionName = $phpcsFile->findNext(T_STRING, $stackPtr);
+        $functionName = $phpcsFile->findNext(\T_STRING, $stackPtr);
         $name = trim($tokens[$functionName]['content']);
 
-        if (substr($name, -6) !== 'Action') {
+        if ('Action' !== substr($name, -6)) {
             return;
         }
 
@@ -46,21 +46,21 @@ class ActionNamingSniff implements Sniff
             return;
         }
 
-        if (substr($name, -10) == 'ListAction') {
+        if ('ListAction' == substr($name, -10)) {
             $error = '不合法的action名称%s,需使用复数形式替代,如userListAction改为usersAction';
             $data = [$name];
             $phpcsFile->addError($error, $stackPtr, 'Ending', $data);
             return;
         }
 
-        if (substr($name, -10) == 'testAction') {
+        if ('testAction' == substr($name, -10)) {
             $error = '不合法的action名称%s,如果是测试代码,请在测试后尽快删除';
             $data = [$name];
             $phpcsFile->addError($error, $stackPtr, 'Test', $data);
             return;
         }
 
-        if (strlen($name) == 7) {
+        if (7 == strlen($name)) {
             $error = 'action名称%s过短';
             $data = [$name];
             $phpcsFile->addError($error, $stackPtr, 'TooShort', $data);

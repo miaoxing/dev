@@ -20,7 +20,7 @@ foreach ($tables as $table) {
 $migrations = $wei->migration->getStatus();
 try {
     $wei->migration->rollback([
-        'target' => $migrations[0]['id']
+        'target' => $migrations[0]['id'],
     ]);
 } catch (\Exception $e) {
     return build_err((string) $e);

@@ -2,8 +2,8 @@
 
 namespace Miaoxing\Sniffs\Wording;
 
-use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Files\File;
+use PHP_CodeSniffer\Sniffs\Sniff;
 
 class InconsistentNameSniff implements Sniff
 {
@@ -15,26 +15,26 @@ class InconsistentNameSniff implements Sniff
     ];
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function register()
     {
-        return [T_COMMENT, T_DOC_COMMENT_STRING, T_INLINE_HTML, T_CONSTANT_ENCAPSED_STRING];
+        return [\T_COMMENT, T_DOC_COMMENT_STRING, \T_INLINE_HTML, \T_CONSTANT_ENCAPSED_STRING];
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function process(File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
         $content = $tokens[$stackPtr]['content'];
-        if (trim($content) === '') {
+        if ('' === trim($content)) {
             return;
         }
 
         foreach ($this->names as $search => $replace) {
-            if (strpos($content, $search) !== false) {
+            if (false !== strpos($content, $search)) {
                 $error = '不一致的文案"%s",需使用"%s"替代';
                 $data = [$search, $replace];
                 $phpcsFile->addError($error, $stackPtr, 'Found', $data);
