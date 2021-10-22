@@ -56,7 +56,9 @@
       {
         "ignoreRestSiblings": true
       }
-    ]
+    ],
+    // 允许 module.exports = { ... };
+    "import/no-commonjs": "off"
   },
   "overrides": [
     {
