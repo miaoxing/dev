@@ -7,18 +7,12 @@ $ignoreDirs = [
     'node_modules',
     'plugins',
 ];
-$dirs = [];
-foreach ($ignoreDirs as $dir) {
-    if (is_dir($cwd . '/' . $dir)) {
-        $dirs[] = $cwd . '/' . $dir;
-    }
-}
 
 return (new PhpCsFixer\Config())
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in('.')
-            ->notPath($dirs)
+            ->exclude($ignoreDirs)
     )
     ->setRules([
         '@PSR12' => true,
