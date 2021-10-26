@@ -8,11 +8,17 @@ $ignoreDirs = [
     'plugins',
 ];
 
+$notPath = [
+    'docs/auto-completion.php',
+    'docs/auto-completion-static.php',
+];
+
 return (new PhpCsFixer\Config())
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in('.')
             ->exclude($ignoreDirs)
+            ->notPath($notPath)
     )
     ->setRules([
         '@PSR12' => true,
