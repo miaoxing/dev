@@ -1,3 +1,35 @@
+# [8.0.0](https://github.com/miaoxing/dev/compare/v7.0.1...v8.0.0) (2021-10-28)
+
+
+### Bug Fixes
+
+* **dev:** php-cs-fixer 忽略生成的 `docs/auto-completion.php` 和 `docs/auto-completion-static.php` 文件 ([db060c6](https://github.com/miaoxing/dev/commit/db060c60261f99ca5a4cfe0462859efe1bce6dc4))
+* **dev, php-cs-fixer:** 检查改为忽略目录失效 ([24757d9](https://github.com/miaoxing/dev/commit/24757d953609ec5c71c68a37df708743cb430767))
+* **php-cs-fixer:** 禁用 `method_chaining_indentation` 规则 ([870833e](https://github.com/miaoxing/dev/commit/870833e418cbfdb4ec8f1b6f8a6e9aa7c9c65729))
+* **stylelint:** 忽略 `unit-case` 规则，允许转换工具忽略 "1PX" ([b913526](https://github.com/miaoxing/dev/commit/b913526aaa0e9a79850c94f756a62d129941ade6))
+
+
+### Features
+
+* **dev:** phpmd 检查增加 pages 目录 ([74c650a](https://github.com/miaoxing/dev/commit/74c650a5f41fc88672fff21a4fc72c37ac26112c))
+* **dev:** 允许 module.exports = { ... }; ([8e43b87](https://github.com/miaoxing/dev/commit/8e43b87b36298ad61346edf2a09bd3108f95e7a1))
+* **dev:** 统一忽略 `new static` ([4dbb32e](https://github.com/miaoxing/dev/commit/4dbb32e12c9b1d2daf336396ef6bd86face75782))
+* 更新 `react` 到 17，设置 `react/jsx-uses-react` 和 `react/react-in-jsx-scope` 规则为 `off`，已有的代码需移除不使用的 `React` ([506a59b](https://github.com/miaoxing/dev/commit/506a59b29d3c4c6104e867a9ca66cf5d111d95b0))
+
+
+### BREAKING CHANGES
+
+* 更新 `react` 到 17，已有的代码需移除不使用的 `React`
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.4.0` to `0.5.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.4` to `0.2.5`
+
 ## [7.0.1](https://github.com/miaoxing/dev/compare/v7.0.0...v7.0.1) (2021-05-12)
 
 
