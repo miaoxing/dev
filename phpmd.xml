@@ -35,7 +35,7 @@
 
   <rule ref="rulesets/naming.xml/ShortVariable">
     <properties>
-      <property name="exceptions" value="e,v,x,y,db,ds,fn,id,ip,iv,js,on,op,os,qb,to,ua,up"/>
+      <property name="exceptions" value="e,v,x,y,db,ds,fn,id,if,ip,iv,js,on,op,os,qb,to,ua,up"/>
       <!-- "iv" is initialization vector in cryptography -->
     </properties>
   </rule>
