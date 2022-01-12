@@ -1,3 +1,20 @@
+## [8.0.1](https://github.com/miaoxing/dev/compare/v8.0.0...v8.0.1) (2022-01-12)
+
+
+### Bug Fixes
+
+* **dev:** 更新 `eslint-plugin-react`，解决 ESLint couldn't find the config "plugin:react/jsx-runtime" to extend from. ([11ce7cd](https://github.com/miaoxing/dev/commit/11ce7cdb8a5c8a459fbcdf4039c6368c489b3e8d))
+* **dev, phpmd:** 允许使用 `if` 作为变量名 ([4a96244](https://github.com/miaoxing/dev/commit/4a96244919fd01b58e1d2fc040f3aaa6894736aa))
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.5.0` to `0.6.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.5` to `0.3.0`
+
 # [8.0.0](https://github.com/miaoxing/dev/compare/v7.0.1...v8.0.0) (2021-10-28)
 
 
