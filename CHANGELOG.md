@@ -1,3 +1,10 @@
+# [8.1.0](https://github.com/miaoxing/dev/compare/v8.0.1...v8.1.0) (2022-02-05)
+
+
+### Features
+
+* **phpmd:** 允许 `$bg` 变量名 ([16ffac8](https://github.com/miaoxing/dev/commit/16ffac8960627b94136a0457707a2533f229b7a3))
+
 ## [8.0.1](https://github.com/miaoxing/dev/compare/v8.0.0...v8.0.1) (2022-01-12)
 
 
