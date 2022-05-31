@@ -44,7 +44,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -195,7 +195,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -255,7 +255,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -315,7 +315,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -375,7 +375,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -435,7 +435,7 @@ jobs:
           node-version: 14
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep composer.json
+        run: npx replace-pkg-dep composer.json main
 
       - name: Setup cache environment
         id: cache-env
@@ -505,7 +505,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep package.json
+        run: npx replace-pkg-dep package.json main
 
       - name: Yarn install
         run: yarn install
@@ -539,7 +539,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Replace package dependencies
-        run: npx replace-pkg-dep package.json
+        run: npx replace-pkg-dep package.json main
 
       - name: Yarn install
         run: yarn install
