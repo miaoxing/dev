@@ -1,3 +1,14 @@
+## [8.1.2](https://github.com/miaoxing/dev/compare/v8.1.1...v8.1.2) (2022-07-01)
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.6.0` to `0.6.1`
+* **@miaoxing/phpstan-miaoxing:** upgrade from `0.1.1` to `1.0.0`
+
 ## [8.1.1](https://github.com/miaoxing/dev/compare/v8.1.0...v8.1.1) (2022-06-01)
 
 
