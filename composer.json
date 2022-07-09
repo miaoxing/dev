@@ -35,6 +35,11 @@
       "./vendor/bin/phpcs -i"
     ]
   },
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
+  },
   "extra": {
     "require-ci": {
       "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 1.x-dev"
