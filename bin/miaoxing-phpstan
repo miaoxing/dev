@@ -19,7 +19,7 @@ else
 fi
 
 exist_dirs=()
-dirs=('src' 'tests' 'pages')
+dirs=('src' 'lib' 'tests' 'pages')
 for dir in ${dirs[@]}; do
   if [[ -d ${dir} ]]; then
     exist_dirs+=(${dir})
