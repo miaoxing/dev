@@ -1,3 +1,10 @@
+# [8.2.0](https://github.com/miaoxing/dev/compare/v8.1.3...v8.2.0) (2023-01-01)
+
+
+### Features
+
+* **dev:** `phpstan` 增加检查 `lib` 目录，用于检查 `wei/wei` ([081890d](https://github.com/miaoxing/dev/commit/081890dc58a19df5c0c8e8c110b61142423bc4ed))
+
 ## [8.1.3](https://github.com/miaoxing/dev/compare/v8.1.2...v8.1.3) (2022-08-02)
 
 
