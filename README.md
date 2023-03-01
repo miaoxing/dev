@@ -1,6 +1,6 @@
 # Miaoxing Dev
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/miaoxing/dev/Build?style=flat-square)](https://github.com/miaoxing/dev/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/miaoxing/dev/build.yml?style=flat-square)](https://github.com/miaoxing/dev/actions)
 [![Coverage Status](https://img.shields.io/coveralls/miaoxing/dev.svg?style=flat-square)](https://coveralls.io/r/miaoxing/dev)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://www.opensource.org/licenses/MIT)
 
