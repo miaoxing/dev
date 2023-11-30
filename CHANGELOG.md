@@ -1,3 +1,13 @@
+## [8.2.4](https://github.com/miaoxing/dev/compare/v8.2.3...v8.2.4) (2023-11-30)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/phpstan-miaoxing:** upgrade from `1.2.1` to `2.0.0`
+
 ## [8.2.3](https://github.com/miaoxing/dev/compare/v8.2.2...v8.2.3) (2023-09-02)
 
 
