@@ -17,10 +17,13 @@ fi
 vendorDir=$(realpath ${vendorDir});
 devDir=$(realpath ${devDir});
 
-if [[ -e ".php_cs" ]]; then
+if [[ -e ".php-cs-fixer.php" ]]; then
+  config=".php-cs-fixer.php";
+elif [[ -e ".php_cs" ]]; then
+  # Compatible with for v2
   config=".php_cs";
 else
-  config="${devDir}/.php_cs";
+  config="${devDir}/.php-cs-fixer.php";
 fi
 
 # Run `miaoxing-php-cs-fixer fix` to execute fix

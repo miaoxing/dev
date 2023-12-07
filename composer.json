@@ -18,7 +18,7 @@
     "php": "^7.2|^8.0",
     "squizlabs/php_codesniffer": "^3.6",
     "mi-schi/phpmd-extension": "^4.3",
-    "friendsofphp/php-cs-fixer": "^2.18",
+    "friendsofphp/php-cs-fixer": "^3",
     "phpunit/phpunit": "^8 || ^9",
     "wp-coding-standards/wpcs": "^2.3",
     "povils/phpmnd": "^2.4",
