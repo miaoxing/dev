@@ -73,10 +73,23 @@ return (new PhpCsFixer\Config())
         // Class\n::method([\n"key" => "value"\n])\n->method2() 缩进不正确
         'method_chaining_indentation' => false,
 
+        // https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues/7179
+        'statement_indentation' => false,
+
         // Risky
         'php_unit_strict' => false,
+        'php_unit_data_provider_return_type' => false,
+        'php_unit_data_provider_name' => false,
+
         'strict_comparison' => false,
         'native_function_invocation' => false,
         // 可能导致 __unset 方法不能如期调用
         'no_unset_on_property' => false,
+
+        // 过于先进，编辑器还未支持
+        'single_line_empty_body' => false,
+
+        // require PHP 8.0
+        'modernize_strpos' => false,
+        'get_class_to_class_keyword' => false,
     ]);
