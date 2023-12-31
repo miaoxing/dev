@@ -7,7 +7,7 @@ if (!is_dir($vendorDir)) {
     $vendorDir = __DIR__ . '/../../../vendor';
 }
 
-/** @var \Composer\Autoload\ClassLoader $loader */
+/** @var Composer\Autoload\ClassLoader $loader */
 $loader = require $vendorDir . '/autoload.php';
 $loader->addPsr4('MiaoxingTest\\Sniffs\\', __DIR__ . '/Sniffs');
 $loader->addPsr4('WordPressCS\\', $vendorDir . '/wp-coding-standards/wpcs');
