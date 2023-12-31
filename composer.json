@@ -22,7 +22,7 @@
     "phpunit/phpunit": "^8 || ^9",
     "wp-coding-standards/wpcs": "^2.3",
     "povils/phpmnd": "^2.4",
-    "miaoxing/phpstan-miaoxing": "^2.0.0"
+    "miaoxing/phpstan-miaoxing": "^2.0.1"
   },
   "autoload-dev": {
     "psr-4": {

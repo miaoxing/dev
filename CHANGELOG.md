@@ -1,3 +1,24 @@
+# [9.0.0](https://github.com/miaoxing/dev/compare/v8.2.4...v9.0.0) (2023-12-31)
+
+
+### Features
+
+* **dev:** 更新 PHP-CS-Fixer 到 v3 ([194936a](https://github.com/miaoxing/dev/commit/194936a8a77f87aeb4da6fb97a49fd13c9380542))
+* **php-cs-fixer:** 禁用一些不使用的规则 ([b49b47e](https://github.com/miaoxing/dev/commit/b49b47eb0f96db79a1255abb72dcb9355810a619))
+
+
+### BREAKING CHANGES
+
+* **dev:** 更新 PHP-CS-Fixer 到 v3
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/phpstan-miaoxing:** upgrade from `2.0.0` to `2.0.1`
+
 ## [8.2.4](https://github.com/miaoxing/dev/compare/v8.2.3...v8.2.4) (2023-11-30)
 
 
