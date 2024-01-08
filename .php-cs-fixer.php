@@ -85,6 +85,8 @@ return (new PhpCsFixer\Config())
         'native_function_invocation' => false,
         // 可能导致 __unset 方法不能如期调用
         'no_unset_on_property' => false,
+        // 自行按需加上即可
+        'final_internal_class' => false,
 
         // 过于先进，编辑器还未支持
         'single_line_empty_body' => false,
