@@ -22,7 +22,7 @@ try {
     $wei->migration->rollback([
         'target' => $migrations[0]['id'],
     ]);
-} catch (\Exception $e) {
+} catch (Exception $e) {
     return build_err((string) $e);
 }
 
