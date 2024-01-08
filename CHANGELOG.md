@@ -1,3 +1,10 @@
+# [9.1.0](https://github.com/miaoxing/dev/compare/v9.0.0...v9.1.0) (2024-01-08)
+
+
+### Features
+
+* 排除 `final_internal_class` 规则 ([681864a](https://github.com/miaoxing/dev/commit/681864abc182f47409b816e0216095f21c87ccd0))
+
 # [9.0.0](https://github.com/miaoxing/dev/compare/v8.2.4...v9.0.0) (2023-12-31)
 
 
