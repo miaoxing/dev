@@ -1,3 +1,13 @@
+## [9.1.1](https://github.com/miaoxing/dev/compare/v9.1.0...v9.1.1) (2024-03-31)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/phpstan-miaoxing:** upgrade from `2.0.1` to `3.0.0`
+
 # [9.1.0](https://github.com/miaoxing/dev/compare/v9.0.0...v9.1.0) (2024-01-08)
 
 
