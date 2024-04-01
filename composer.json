@@ -42,7 +42,7 @@
   },
   "extra": {
     "require-ci": {
-      "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 2.x-dev"
+      "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 3.x-dev"
     }
   }
 }
