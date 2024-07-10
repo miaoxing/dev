@@ -9,7 +9,7 @@ if (!is_dir($vendorDir)) {
 
 /** @var Composer\Autoload\ClassLoader $loader */
 $loader = require $vendorDir . '/autoload.php';
-$loader->addPsr4('MiaoxingTest\\Sniffs\\', __DIR__ . '/Sniffs');
+$loader->addPsr4('MiaoxingTest\Sniffs\\', __DIR__ . '/Sniffs');
 $loader->addPsr4('WordPressCS\\', $vendorDir . '/wp-coding-standards/wpcs');
 
 require_once $vendorDir . '/squizlabs/php_codesniffer/autoload.php';
