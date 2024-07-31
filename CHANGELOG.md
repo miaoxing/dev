@@ -1,3 +1,13 @@
+## [9.1.2](https://github.com/miaoxing/dev/compare/v9.1.1...v9.1.2) (2024-07-31)
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.7.0` to `0.8.0`
+
 ## [9.1.1](https://github.com/miaoxing/dev/compare/v9.1.0...v9.1.1) (2024-03-31)
 
 

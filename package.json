@@ -1,6 +1,6 @@
 {
   "name": "@miaoxing/dev",
-  "version": "9.1.1",
+  "version": "9.1.2",
   "description": "Miaoxing Coding Standards",
   "main": "index.js",
   "repository": "https://github.com/miaoxing/dev.git",
@@ -42,7 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.22.1",
     "babel-eslint": "^10.1.0",
-    "babel-preset-miaoxing": "^0.7.0",
+    "babel-preset-miaoxing": "^0.8.0",
     "eslint": "^7.2.0",
     "eslint-plugin-react": "^7.28.0",
     "jest": "^26.0.1",
