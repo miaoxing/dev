@@ -6,11 +6,8 @@ $ignoreDirs = [
     'vendor',
     'node_modules',
     'plugins',
-];
-
-$notPath = [
-    'docs/auto-completion.php',
-    'docs/auto-completion-static.php',
+    // 忽略生成的缓存文件
+    'storage/cache',
 ];
 
 return (new PhpCsFixer\Config())
@@ -18,7 +15,8 @@ return (new PhpCsFixer\Config())
         PhpCsFixer\Finder::create()
             ->in('.')
             ->exclude($ignoreDirs)
-            ->notPath($notPath)
+            // 忽略 GAutoCompletion 生成的文件
+            ->notName('/^auto-completion/')
     )
     ->setRules([
         '@PSR12' => true,
