@@ -10,7 +10,7 @@ $ignoreDirs = [
     'storage/cache',
 ];
 
-return (new PhpCsFixer\Config())
+$config = (new PhpCsFixer\Config())
     ->setFinder(
         PhpCsFixer\Finder::create()
             ->in('.')
@@ -18,6 +18,7 @@ return (new PhpCsFixer\Config())
             // 忽略 GAutoCompletion 生成的文件
             ->notName('/^auto-completion/')
     )
+    ->setParallelConfig(PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect())
     ->setRules([
         '@PSR12' => true,
         '@PhpCsFixer' => true,
@@ -93,3 +94,5 @@ return (new PhpCsFixer\Config())
         'modernize_strpos' => false,
         'get_class_to_class_keyword' => false,
     ]);
+
+return $config;
