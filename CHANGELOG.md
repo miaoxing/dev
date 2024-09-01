@@ -1,3 +1,15 @@
+# [9.2.0](https://github.com/miaoxing/dev/compare/v9.1.3...v9.2.0) (2024-09-01)
+
+
+### Features
+
+* **dev:** php-cs-fixer 增加忽略生成的文件 ([b7334ed](https://github.com/miaoxing/dev/commit/b7334edbed1b7fbe2e53cd8bb58b14ae1969f356))
+
+
+### Performance Improvements
+
+* **dev:** 使用并行处理以提高 PHP CS Fixer 的速度 ([abde8e4](https://github.com/miaoxing/dev/commit/abde8e4c023ed73ce640c54a08028af860583b02))
+
 ## [9.1.3](https://github.com/miaoxing/dev/compare/v9.1.2...v9.1.3) (2024-08-03)
 
 
