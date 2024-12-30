@@ -1,3 +1,10 @@
+# [9.3.0](https://github.com/miaoxing/dev/compare/v9.2.0...v9.3.0) (2024-12-30)
+
+
+### Features
+
+* **dev:** 更新 phpmnd 至 v3 并调整 miaoxing-phpmnd 脚本 ([b9522ec](https://github.com/miaoxing/dev/commit/b9522ec4be81fdd5a479f41620eb3ba9513deb87))
+
 # [9.2.0](https://github.com/miaoxing/dev/compare/v9.1.3...v9.2.0) (2024-09-01)
 
 
