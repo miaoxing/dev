@@ -1,3 +1,10 @@
+## [9.3.1](https://github.com/miaoxing/dev/compare/v9.3.0...v9.3.1) (2024-12-31)
+
+
+### Bug Fixes
+
+* **dev:** 增加 povils/phpmnd v2 依赖兼容 PHP 7.2, 7.3 ([74f3aa2](https://github.com/miaoxing/dev/commit/74f3aa2ae1f292e6fb48d988d1a375441c135d0d))
+
 # [9.3.0](https://github.com/miaoxing/dev/compare/v9.2.0...v9.3.0) (2024-12-30)
 
 
