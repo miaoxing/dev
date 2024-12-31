@@ -21,7 +21,7 @@
     "friendsofphp/php-cs-fixer": "^3",
     "phpunit/phpunit": "^8 || ^9",
     "wp-coding-standards/wpcs": "^2.3",
-    "povils/phpmnd": "^3",
+    "povils/phpmnd": "^2 || ^3",
     "miaoxing/phpstan-miaoxing": "^3.0.0"
   },
   "autoload-dev": {
